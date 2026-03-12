@@ -388,7 +388,13 @@ namespace Pantallas
                         using (var connection = new SqlConnection(sqlConnectionString))
                         {
                             connection.Open();
-                            string databaseName = connection.Database.Replace("]", "]]");
+                            string rawDatabaseName = connection.Database;
+                            if (!System.Text.RegularExpressions.Regex.IsMatch(rawDatabaseName, @"^[\w\-\. ]+$"))
+                            {
+                                MessageBox.Show("El nombre de la base de datos contiene caracteres inválidos.".Traducir(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                return;
+                            }
+                            string databaseName = rawDatabaseName.Replace("]", "]]");
                             string query = "BACKUP DATABASE [" + databaseName + "] TO DISK = @backupPath WITH FORMAT, INIT, SKIP, NOREWIND, NOUNLOAD, STATS = 10";
                             using (var command = new SqlCommand(query, connection))
                             {
@@ -398,11 +404,11 @@ namespace Pantallas
                             }
                         }
 
-                        MessageBox.Show(("Backup realizado correctamente.\n" + backupPath).Traducir(), "Backup", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Backup realizado correctamente.".Traducir() + "\n" + backupPath, "Backup", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(("Error al realizar el backup: " + ex.Message).Traducir(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Error al realizar el backup: ".Traducir() + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
