@@ -1,177 +1,179 @@
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.AssemblyReference.cache
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmAlquilerMes.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCargaLibro.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmConsultarCliente.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCrearCliente.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCrearUsuario.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmDevolucionAlquiler.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmEliminarCliente.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmIniciarAlquiler.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmInicio.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmInicioSigal.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmLibrosCargados.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmNegro.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmPermiso.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmPregunta.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmRenovarAlquiler.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.Properties.Resources.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.GenerateResource.cache
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.CoreCompileInputs.cache
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\I18n\idioma.en-US
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\I18n\idioma.es-AR
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.exe.config
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.exe
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.pdb
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.SqlServer.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.ComponentModel.Annotations.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Configuration.ConfigurationManager.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.AccessControl.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Permissions.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Principal.Windows.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.dll
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.pdb
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.dll.config
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.pdb
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.dll.config
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.pdb
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.dll.config
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.pdb
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.xml
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.xml
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.SqlServer.xml
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Configuration.ConfigurationManager.xml
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.AccessControl.xml
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Permissions.xml
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Principal.Windows.xml
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.pdb
-D:\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.dll.config
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.CopyComplete
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.exe
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.pdb
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmMensaje.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmLibroAlquilado.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmAutorExistente.resources
-D:\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmEditorialExistente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\I18n\idioma.en-US
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\I18n\idioma.es-AR
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.exe.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.exe
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.ComponentModel.Annotations.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Configuration.ConfigurationManager.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.AccessControl.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Permissions.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Principal.Windows.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Configuration.ConfigurationManager.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.AccessControl.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Permissions.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Principal.Windows.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.AssemblyReference.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmAutorExistente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmEditorialExistente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmMensaje.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmLibroAlquilado.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmAlquilerMes.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCargaLibro.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmConsultarCliente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCrearCliente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCrearUsuario.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmDevolucionAlquiler.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmEliminarCliente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmIniciarAlquiler.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmInicio.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmInicioSigal.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmLibrosCargados.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmNegro.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmPermiso.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmPregunta.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmRenovarAlquiler.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.Properties.Resources.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.GenerateResource.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.CoreCompileInputs.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.Up2Date
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.exe
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.AssemblyReference.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmAutorExistente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmEditorialExistente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmMensaje.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmLibroAlquilado.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmAlquilerMes.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCargaLibro.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmConsultarCliente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCrearCliente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmCrearUsuario.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmDevolucionAlquiler.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmEliminarCliente.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmIniciarAlquiler.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmInicio.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmInicioSigal.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmLibrosCargados.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmNegro.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmPermiso.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmPregunta.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.frmRenovarAlquiler.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.Properties.Resources.resources
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.GenerateResource.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.CoreCompileInputs.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\I18n\idioma.en-US
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\I18n\idioma.es-AR
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.exe.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.exe
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Pantallas.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.ComponentModel.Annotations.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Configuration.ConfigurationManager.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.AccessControl.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Permissions.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Principal.Windows.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\BLL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Domain.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\SL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\Catel.Core.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Configuration.ConfigurationManager.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.AccessControl.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Permissions.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\System.Security.Principal.Windows.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\bin\Debug\DAL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.csproj.Up2Date
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.exe
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\Pantallas\obj\Debug\Pantallas.pdb
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.AssemblyReference.cache
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmAlquilerMes.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCargaLibro.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmConsultarCliente.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCrearCliente.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCrearUsuario.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmDevolucionAlquiler.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmEliminarCliente.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmIniciarAlquiler.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmInicio.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmInicioSigal.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmLibrosCargados.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmNegro.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmPermiso.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmPregunta.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmRenovarAlquiler.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.Properties.Resources.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.GenerateResource.cache
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.CoreCompileInputs.cache
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/I18n/idioma.en-US
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/I18n/idioma.es-AR
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.exe.config
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.exe
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.pdb
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.SqlServer.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.ComponentModel.Annotations.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Configuration.ConfigurationManager.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.AccessControl.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Permissions.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Principal.Windows.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.dll
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.pdb
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.dll.config
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.pdb
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.dll.config
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.pdb
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.dll.config
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.pdb
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.xml
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.xml
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.SqlServer.xml
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Configuration.ConfigurationManager.xml
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.AccessControl.xml
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Permissions.xml
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Principal.Windows.xml
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.pdb
+D:/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.dll.config
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.CopyComplete
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.exe
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.pdb
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmMensaje.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmLibroAlquilado.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmAutorExistente.resources
+D:/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmEditorialExistente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/I18n/idioma.en-US
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/I18n/idioma.es-AR
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.exe.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.exe
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.SqlServer.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.ComponentModel.Annotations.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Configuration.ConfigurationManager.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.AccessControl.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Permissions.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Principal.Windows.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.SqlServer.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Configuration.ConfigurationManager.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.AccessControl.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Permissions.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Principal.Windows.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.AssemblyReference.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmAutorExistente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmEditorialExistente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmMensaje.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmLibroAlquilado.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmAlquilerMes.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCargaLibro.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmConsultarCliente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCrearCliente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCrearUsuario.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmDevolucionAlquiler.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmEliminarCliente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmIniciarAlquiler.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmInicio.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmInicioSigal.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmLibrosCargados.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmNegro.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmPermiso.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmPregunta.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmRenovarAlquiler.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.Properties.Resources.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.GenerateResource.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.CoreCompileInputs.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.Up2Date
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.exe
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.AssemblyReference.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmAutorExistente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmEditorialExistente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmMensaje.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmLibroAlquilado.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmAlquilerMes.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCargaLibro.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmConsultarCliente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCrearCliente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmCrearUsuario.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmDevolucionAlquiler.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmEliminarCliente.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmIniciarAlquiler.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmInicio.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmInicioSigal.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmLibrosCargados.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmNegro.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmPermiso.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmPregunta.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.frmRenovarAlquiler.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.Properties.Resources.resources
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.GenerateResource.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.CoreCompileInputs.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/I18n/idioma.en-US
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/I18n/idioma.es-AR
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.exe.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.exe
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Pantallas.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.SqlServer.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.ComponentModel.Annotations.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Configuration.ConfigurationManager.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.AccessControl.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Permissions.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Principal.Windows.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/BLL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Domain.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/SL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/Catel.Core.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/EntityFramework.SqlServer.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Configuration.ConfigurationManager.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.AccessControl.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Permissions.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/System.Security.Principal.Windows.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/bin/Debug/DAL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.csproj.Up2Date
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.exe
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/Pantallas/obj/Debug/Pantallas.pdb
+/home/runner/work/SIGAL-TP/SIGAL-TP/Pantallas/obj/Debug/Pantallas.exe
+/home/runner/work/SIGAL-TP/SIGAL-TP/Pantallas/obj/Debug/Pantallas.pdb

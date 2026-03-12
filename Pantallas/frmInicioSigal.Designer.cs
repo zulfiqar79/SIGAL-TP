@@ -30,6 +30,7 @@
         {
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
+            this.btnBackup = new System.Windows.Forms.Button();
             this.panelIdiomaSubMenu = new System.Windows.Forms.Panel();
             this.btnIngles = new System.Windows.Forms.Button();
             this.btnEspañol = new System.Windows.Forms.Button();
@@ -71,6 +72,7 @@
             this.panelPrincipal.AutoScroll = true;
             this.panelPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panelPrincipal.Controls.Add(this.btnCerrarSesion);
+            this.panelPrincipal.Controls.Add(this.btnBackup);
             this.panelPrincipal.Controls.Add(this.panelIdiomaSubMenu);
             this.panelPrincipal.Controls.Add(this.btnIdioma);
             this.panelPrincipal.Controls.Add(this.panelUsuarioSubMenu);
@@ -103,6 +105,22 @@
             this.btnCerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+            // 
+            // btnBackup
+            // 
+            this.btnBackup.BackColor = System.Drawing.SystemColors.InfoText;
+            this.btnBackup.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBackup.FlatAppearance.BorderSize = 0;
+            this.btnBackup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBackup.ForeColor = System.Drawing.Color.White;
+            this.btnBackup.Location = new System.Drawing.Point(0, 792);
+            this.btnBackup.Name = "btnBackup";
+            this.btnBackup.Size = new System.Drawing.Size(233, 37);
+            this.btnBackup.TabIndex = 15;
+            this.btnBackup.Text = "BACKUP";
+            this.btnBackup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBackup.UseVisualStyleBackColor = false;
+            this.btnBackup.Click += new System.EventHandler(this.btnBackup_Click);
             // 
             // panelIdiomaSubMenu
             // 
@@ -562,5 +580,6 @@
         private System.Windows.Forms.Button btnLibrosCargados;
         private System.Windows.Forms.Button btnPermiso;
         private System.Windows.Forms.HelpProvider helpProvider1;
+        private System.Windows.Forms.Button btnBackup;
     }
 }
