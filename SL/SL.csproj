@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2664047-BB8B-453E-9497-870D9E0C1E22}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SL</RootNamespace>
+    <AssemblyName>SL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Contrato\IGeneralServicio.cs" />
+    <Compile Include="BLL\ExceptionBLL\AccesoDenegadoExcepcion.cs" />
+    <Compile Include="BLL\ExceptionBLL\AlquilerFinalizado.cs" />
+    <Compile Include="BLL\ExceptionBLL\AutorInexistente.cs" />
+    <Compile Include="BLL\ExceptionBLL\ClienteInexistente.cs" />
+    <Compile Include="BLL\ExceptionBLL\ContraseñasDiferentes.cs" />
+    <Compile Include="BLL\ExceptionBLL\DatosFaltantes.cs" />
+    <Compile Include="BLL\ExceptionBLL\EditorialInexistente.cs" />
+    <Compile Include="BLL\ExceptionBLL\ErrorPermiso.cs" />
+    <Compile Include="BLL\ExceptionBLL\Exception_BLL.cs" />
+    <Compile Include="BLL\ExceptionBLL\FormatoCorreoInvalido.cs" />
+    <Compile Include="BLL\ExceptionBLL\LibroNoDisponible.cs" />
+    <Compile Include="BLL\ExceptionBLL\PalabraInexistente.cs" />
+    <Compile Include="BLL\ExceptionBLL\UsuarioInexistente.cs" />
+    <Compile Include="BLL\IdiomaBLL\Idioma_bll.cs" />
+    <Compile Include="BLL\LogBLL\LoggerBLL.cs" />
+    <Compile Include="Correo\ValidarCorreo.cs" />
+    <Compile Include="Cryptoghapy\CryptographyService.cs" />
+    <Compile Include="DAL\IdiomaDAL\Idioma_dal.cs" />
+    <Compile Include="DAL\LogDAL\LoggerRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicios\Extension\ExceptionExtension.cs" />
+    <Compile Include="Servicios\Extension\LoggerService.cs" />
+    <Compile Include="Servicios\Extension\StringExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

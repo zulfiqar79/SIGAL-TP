@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EAA52744-A971-4CA9-9A14-425B5BB608FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pantallas</RootNamespace>
+    <AssemblyName>Pantallas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Catel.Core, Version=5.12.22.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Catel.Core.5.12.22\lib\net47\Catel.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.5.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Serialization.Formatters.4.3.0\lib\net46\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Serialization.Primitives.4.3.0\lib\net46\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Serialization.Xml.4.3.0\lib\net46\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.5.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAutorExistente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutorExistente.Designer.cs">
+      <DependentUpon>frmAutorExistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditorialExistente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditorialExistente.Designer.cs">
+      <DependentUpon>frmEditorialExistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMensaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMensaje.Designer.cs">
+      <DependentUpon>frmMensaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLibroAlquilado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLibroAlquilado.Designer.cs">
+      <DependentUpon>frmLibroAlquilado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlquilerMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlquilerMes.Designer.cs">
+      <DependentUpon>frmAlquilerMes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargaLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargaLibro.Designer.cs">
+      <DependentUpon>frmCargaLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarCliente.Designer.cs">
+      <DependentUpon>frmConsultarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrearCliente.Designer.cs">
+      <DependentUpon>frmCrearCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrearUsuario.Designer.cs">
+      <DependentUpon>frmCrearUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDevolucionAlquiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDevolucionAlquiler.Designer.cs">
+      <DependentUpon>frmDevolucionAlquiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarCliente.Designer.cs">
+      <DependentUpon>frmEliminarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIniciarAlquiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIniciarAlquiler.Designer.cs">
+      <DependentUpon>frmIniciarAlquiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSigal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioSigal.Designer.cs">
+      <DependentUpon>frmInicioSigal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLibrosCargados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLibrosCargados.Designer.cs">
+      <DependentUpon>frmLibrosCargados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNegro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNegro.Designer.cs">
+      <DependentUpon>frmNegro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPermiso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPermiso.Designer.cs">
+      <DependentUpon>frmPermiso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPregunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPregunta.Designer.cs">
+      <DependentUpon>frmPregunta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRenovarAlquiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRenovarAlquiler.Designer.cs">
+      <DependentUpon>frmRenovarAlquiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Observer\IFormObserver.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioActivo.cs" />
+    <EmbeddedResource Include="frmAutorExistente.resx">
+      <DependentUpon>frmAutorExistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditorialExistente.resx">
+      <DependentUpon>frmEditorialExistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMensaje.resx">
+      <DependentUpon>frmMensaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLibroAlquilado.resx">
+      <DependentUpon>frmLibroAlquilado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlquilerMes.resx">
+      <DependentUpon>frmAlquilerMes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargaLibro.resx">
+      <DependentUpon>frmCargaLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarCliente.resx">
+      <DependentUpon>frmConsultarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearCliente.resx">
+      <DependentUpon>frmCrearCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearUsuario.resx">
+      <DependentUpon>frmCrearUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDevolucionAlquiler.resx">
+      <DependentUpon>frmDevolucionAlquiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarCliente.resx">
+      <DependentUpon>frmEliminarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIniciarAlquiler.resx">
+      <DependentUpon>frmIniciarAlquiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSigal.resx">
+      <DependentUpon>frmInicioSigal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLibrosCargados.resx">
+      <DependentUpon>frmLibrosCargados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNegro.resx">
+      <DependentUpon>frmNegro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPermiso.resx">
+      <DependentUpon>frmPermiso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPregunta.resx">
+      <DependentUpon>frmPregunta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenovarAlquiler.resx">
+      <DependentUpon>frmRenovarAlquiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="I18n\idioma.en-US">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="I18n\idioma.es-AR">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{3b62a2cb-9aab-4d9c-8962-7449bc6fbdc4}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{BE0CA222-CADB-40A3-A055-74944F62FB6F}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SL\SL.csproj">
+      <Project>{f2664047-bb8b-453e-9497-870d9e0c1e22}</Project>
+      <Name>SL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

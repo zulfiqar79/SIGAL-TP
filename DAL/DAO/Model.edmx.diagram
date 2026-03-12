@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4037021fbd314cdebaf8b7afcdee7b8c" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="base_sigalModel.Alquiler" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="base_sigalModel.Autor" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="base_sigalModel.Cliente" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="base_sigalModel.DAlquiler" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="base_sigalModel.Editorial" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="base_sigalModel.Libro" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="base_sigalModel.Pago" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="base_sigalModel.Usuario" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="base_sigalModel.FK__Alquiler__ID_CLI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="base_sigalModel.FK__Alquiler__ID_DET__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="base_sigalModel.FK__Libro__ID_AUTOR___3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="base_sigalModel.FK__DAlquiler__ID_LI__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="base_sigalModel.FK__DAlquiler__ID_PA__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="base_sigalModel.FK__Libro__ID_EDITOR__3D5E1FD2" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="base_sigalModel.Permiso" Width="1.5" PointX="7.75" PointY="7.75" />
+        <EntityTypeShape EntityType="base_sigalModel.UsuarioPermiso" Width="1.5" PointX="10" PointY="4.25" />
+        <AssociationConnector Association="base_sigalModel.FK__UsuarioPe__ID_PE__6477ECF3" />
+        <AssociationConnector Association="base_sigalModel.FK__UsuarioPe__USER___6383C8BA" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

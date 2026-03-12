@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="base_sigalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Alquiler">
+    <Key>
+      <PropertyRef Name="ID_ALQUILER" />
+    </Key>
+    <Property Name="ID_ALQUILER" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_CLIENTE" Type="int" />
+    <Property Name="ID_DETALLE_ALQUILER" Type="int" />
+    <Property Name="OBSERVACIONES" Type="varchar" MaxLength="170" />
+  </EntityType>
+  <EntityType Name="Autor">
+    <Key>
+      <PropertyRef Name="ID_AUTOR" />
+    </Key>
+    <Property Name="ID_AUTOR" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE_AUTOR" Type="varchar" MaxLength="60" />
+    <Property Name="APELLIDO_AUTOR" Type="varchar" MaxLength="60" />
+    <Property Name="NACIMIENTO" Type="int" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="ID_CLIENTE" />
+    </Key>
+    <Property Name="ID_CLIENTE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE_CLIENTE" Type="varchar" MaxLength="50" />
+    <Property Name="APELLIDO_CLIENTE" Type="varchar" MaxLength="50" />
+    <Property Name="CORREO_CLIENTE" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="DAlquiler">
+    <Key>
+      <PropertyRef Name="ID_DETALLE_ALQUILER" />
+    </Key>
+    <Property Name="ID_DETALLE_ALQUILER" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FECHA_INICIO" Type="date" />
+    <Property Name="FECHA_FIN" Type="date" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="40" />
+    <Property Name="ID_PAGO" Type="int" />
+    <Property Name="ID_LIBRO" Type="int" />
+  </EntityType>
+  <EntityType Name="Editorial">
+    <Key>
+      <PropertyRef Name="ID_EDITORIAL" />
+    </Key>
+    <Property Name="ID_EDITORIAL" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE_EDITORIAL" Type="varchar" MaxLength="60" />
+    <Property Name="TELEFONO" Type="int" />
+    <Property Name="DIRECCION" Type="varchar" MaxLength="120" />
+    <Property Name="PAIS" Type="varchar" MaxLength="60" />
+  </EntityType>
+  <EntityType Name="Libro">
+    <Key>
+      <PropertyRef Name="ID_LIBRO" />
+    </Key>
+    <Property Name="ID_LIBRO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PUBLICADO" Type="int" />
+    <Property Name="ESTADO_LIBRO" Type="varchar" MaxLength="15" />
+    <Property Name="TITULO_LIBRO" Type="varchar" MaxLength="120" />
+    <Property Name="CONTENIDO" Type="varchar" MaxLength="140" />
+    <Property Name="ISBN" Type="varchar" MaxLength="120" />
+    <Property Name="ID_EDITORIAL_LIBRO" Type="int" />
+    <Property Name="ID_AUTOR_LIBRO" Type="int" />
+  </EntityType>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="ID_PAGO" />
+    </Key>
+    <Property Name="ID_PAGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FECHA_MONTO_PAGO" Type="date" />
+    <Property Name="MONTO_PAGO" Type="int" />
+  </EntityType>
+  <EntityType Name="Permiso">
+    <Key>
+      <PropertyRef Name="ID_PERMISO" />
+    </Key>
+    <Property Name="ID_PERMISO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TIPO_PERMISO" Type="varchar" MaxLength="60" />
+    <Property Name="NOM_PERMISO" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID_USUARIO" />
+    </Key>
+    <Property Name="ID_USUARIO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USUARIO" Type="varchar" MaxLength="120" />
+    <Property Name="CONTRA" Type="varchar" MaxLength="120" />
+  </EntityType>
+  <EntityType Name="UsuarioPermiso">
+    <Key>
+      <PropertyRef Name="ID_USUARIO_PERMISO" />
+    </Key>
+    <Property Name="ID_USUARIO_PERMISO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="int" Nullable="false" />
+    <Property Name="ID_PERMISO" Type="int" Nullable="false" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USER_CREACION" Type="varchar" MaxLength="20" />
+    <Property Name="FECHA_MODI" Type="datetime" />
+    <Property Name="USER_MODI" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'base_sigal.dbo.alquiler_pendiente' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="alquiler_pendiente">
+          <Property Name="INICIO" Type="date" />
+          <Property Name="FIN" Type="date" />
+          <Property Name="ESTADO_ALQUILER" Type="varchar" MaxLength="40" />
+          <Property Name="MONTO_PAGO" Type="int" />
+          <Property Name="TITULO_LIBRO" Type="varchar" MaxLength="120" />
+          <Property Name="ESTADO_LIBRO" Type="varchar" MaxLength="15" />
+          <Property Name="CORREO_CLIENTE" Type="varchar" MaxLength="150" />
+        </EntityType>-->
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'base_sigal.dbo.ALQUILER_PENDIENTE_VISTA' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="ALQUILER_PENDIENTE_VISTA">
+          <Property Name="ID_vista_alquiler" Type="bigint" />
+          <Property Name="INICIO" Type="date" />
+          <Property Name="FIN" Type="date" />
+          <Property Name="ESTADO_ALQUILER" Type="varchar" MaxLength="40" />
+          <Property Name="MONTO_PAGO" Type="int" />
+          <Property Name="TITULO_LIBRO" Type="varchar" MaxLength="120" />
+          <Property Name="ESTADO_LIBRO" Type="varchar" MaxLength="15" />
+          <Property Name="CORREO_CLIENTE" Type="varchar" MaxLength="150" />
+        </EntityType>-->
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'base_sigal.dbo.vista_alquiler_mes' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="vista_alquiler_mes">
+          <Property Name="ID_vista_alquiler_mes" Type="bigint" />
+          <Property Name="FECHA_INICIO" Type="date" />
+          <Property Name="FECHA_FIN" Type="date" />
+          <Property Name="ESTADO" Type="varchar" MaxLength="40" />
+          <Property Name="MONTO_PAGO" Type="int" />
+          <Property Name="TITULO_LIBRO" Type="varchar" MaxLength="120" />
+          <Property Name="CORREO_CLIENTE" Type="varchar" MaxLength="150" />
+          <Property Name="OBSERVACIONES" Type="varchar" MaxLength="170" />
+        </EntityType>-->
+  <Association Name="FK__Alquiler__ID_CLI__47DBAE45">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Alquiler" Type="Self.Alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_CLIENTE" />
+      </Principal>
+      <Dependent Role="Alquiler">
+        <PropertyRef Name="ID_CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Alquiler__ID_DET__46E78A0C">
+    <End Role="DAlquiler" Type="Self.DAlquiler" Multiplicity="0..1" />
+    <End Role="Alquiler" Type="Self.Alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DAlquiler">
+        <PropertyRef Name="ID_DETALLE_ALQUILER" />
+      </Principal>
+      <Dependent Role="Alquiler">
+        <PropertyRef Name="ID_DETALLE_ALQUILER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DAlquiler__ID_LI__440B1D61">
+    <End Role="Libro" Type="Self.Libro" Multiplicity="0..1" />
+    <End Role="DAlquiler" Type="Self.DAlquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Libro">
+        <PropertyRef Name="ID_LIBRO" />
+      </Principal>
+      <Dependent Role="DAlquiler">
+        <PropertyRef Name="ID_LIBRO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DAlquiler__ID_PA__4316F928">
+    <End Role="Pago" Type="Self.Pago" Multiplicity="0..1" />
+    <End Role="DAlquiler" Type="Self.DAlquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pago">
+        <PropertyRef Name="ID_PAGO" />
+      </Principal>
+      <Dependent Role="DAlquiler">
+        <PropertyRef Name="ID_PAGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Libro__ID_AUTOR___3E52440B">
+    <End Role="Autor" Type="Self.Autor" Multiplicity="0..1" />
+    <End Role="Libro" Type="Self.Libro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Autor">
+        <PropertyRef Name="ID_AUTOR" />
+      </Principal>
+      <Dependent Role="Libro">
+        <PropertyRef Name="ID_AUTOR_LIBRO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Libro__ID_EDITOR__3D5E1FD2">
+    <End Role="Editorial" Type="Self.Editorial" Multiplicity="0..1" />
+    <End Role="Libro" Type="Self.Libro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Editorial">
+        <PropertyRef Name="ID_EDITORIAL" />
+      </Principal>
+      <Dependent Role="Libro">
+        <PropertyRef Name="ID_EDITORIAL_LIBRO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsuarioPe__ID_PE__6477ECF3">
+    <End Role="Permiso" Type="Self.Permiso" Multiplicity="1" />
+    <End Role="UsuarioPermiso" Type="Self.UsuarioPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permiso">
+        <PropertyRef Name="ID_PERMISO" />
+      </Principal>
+      <Dependent Role="UsuarioPermiso">
+        <PropertyRef Name="ID_PERMISO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsuarioPe__USER___6383C8BA">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="UsuarioPermiso" Type="Self.UsuarioPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="UsuarioPermiso">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="base_sigalModelStoreContainer">
+    <EntitySet Name="Alquiler" EntityType="Self.Alquiler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Autor" EntityType="Self.Autor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DAlquiler" EntityType="Self.DAlquiler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Editorial" EntityType="Self.Editorial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Libro" EntityType="Self.Libro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pago" EntityType="Self.Pago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Permiso" EntityType="Self.Permiso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsuarioPermiso" EntityType="Self.UsuarioPermiso" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Alquiler__ID_CLI__47DBAE45" Association="Self.FK__Alquiler__ID_CLI__47DBAE45">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Alquiler" EntitySet="Alquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Alquiler__ID_DET__46E78A0C" Association="Self.FK__Alquiler__ID_DET__46E78A0C">
+      <End Role="DAlquiler" EntitySet="DAlquiler" />
+      <End Role="Alquiler" EntitySet="Alquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DAlquiler__ID_LI__440B1D61" Association="Self.FK__DAlquiler__ID_LI__440B1D61">
+      <End Role="Libro" EntitySet="Libro" />
+      <End Role="DAlquiler" EntitySet="DAlquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DAlquiler__ID_PA__4316F928" Association="Self.FK__DAlquiler__ID_PA__4316F928">
+      <End Role="Pago" EntitySet="Pago" />
+      <End Role="DAlquiler" EntitySet="DAlquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Libro__ID_AUTOR___3E52440B" Association="Self.FK__Libro__ID_AUTOR___3E52440B">
+      <End Role="Autor" EntitySet="Autor" />
+      <End Role="Libro" EntitySet="Libro" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Libro__ID_EDITOR__3D5E1FD2" Association="Self.FK__Libro__ID_EDITOR__3D5E1FD2">
+      <End Role="Editorial" EntitySet="Editorial" />
+      <End Role="Libro" EntitySet="Libro" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsuarioPe__ID_PE__6477ECF3" Association="Self.FK__UsuarioPe__ID_PE__6477ECF3">
+      <End Role="Permiso" EntitySet="Permiso" />
+      <End Role="UsuarioPermiso" EntitySet="UsuarioPermiso" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsuarioPe__USER___6383C8BA" Association="Self.FK__UsuarioPe__USER___6383C8BA">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="UsuarioPermiso" EntitySet="UsuarioPermiso" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
