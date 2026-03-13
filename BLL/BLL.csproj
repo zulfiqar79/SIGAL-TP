@@ -53,6 +53,11 @@
     <Compile Include="BusinessLogic\cliente\ClienteBLL.cs" />
     <Compile Include="BusinessLogic\alquiler\DetalleAlquilerBLL.cs" />
     <Compile Include="BusinessLogic\libro\EditorialBLL.cs" />
+    <Compile Include="BusinessLogic\libro\Estrategia\AutorExistenteEditorialExistente.cs" />
+    <Compile Include="BusinessLogic\libro\Estrategia\AutorExistenteEditorialNueva.cs" />
+    <Compile Include="BusinessLogic\libro\Estrategia\AutorNuevoEditorialExistente.cs" />
+    <Compile Include="BusinessLogic\libro\Estrategia\AutorNuevoEditorialNueva.cs" />
+    <Compile Include="BusinessLogic\libro\Estrategia\IInsercionLibroStrategy.cs" />
     <Compile Include="BusinessLogic\libro\LibroBLL.cs" />
     <Compile Include="BusinessLogic\alquiler\PagoBLL.cs" />
     <Compile Include="BusinessLogic\usuario\PermisoUsuarioBLL.cs" />

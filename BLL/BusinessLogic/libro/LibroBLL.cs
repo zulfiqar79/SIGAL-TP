@@ -1,4 +1,5 @@
-﻿using DAL.AccesoDatos.libro;
+﻿using BLL.BusinessLogic.libro.Estrategia;
+using DAL.AccesoDatos.libro;
 using DAL.DAO;
 using SL.BLL.Contrato;
 using SL.BLL.ExcepcionBLL;
@@ -28,19 +29,20 @@ namespace BLL.Servicio.libro
             }
         }
 
-        public void Insertar(Libro obj)
+        /// <summary>
+        /// Inserta un libro usando la estrategia indicada para resolver
+        /// los IDs de autor y editorial (patrón Strategy).
+        /// </summary>
+        public void Insertar(Libro obj, IInsercionLibroStrategy estrategia)
         {
             try
             {
                 ValidarLibro(obj);
 
-                int idAutor = LibroDAL.Instance.ObtenerUltimoIdAutor();
-                int idEditorial = LibroDAL.Instance.ObtenerUltimoIdEditorial();
-
                 Libro l = new Libro()
                 {
-                    ID_AUTOR_LIBRO = idAutor,
-                    ID_EDITORIAL_LIBRO = idEditorial,
+                    ID_AUTOR_LIBRO = estrategia.ObtenerIdAutor(obj),
+                    ID_EDITORIAL_LIBRO = estrategia.ObtenerIdEditorial(obj),
                     ISBN = obj.ISBN,
                     CONTENIDO = obj.CONTENIDO,
                     TITULO_LIBRO = obj.TITULO_LIBRO,
@@ -61,103 +63,21 @@ namespace BLL.Servicio.libro
                 throw;
             }
         }
+
+        // Los métodos existentes delegan al método central con la estrategia correspondiente,
+        // manteniendo compatibilidad con el código que ya los llama.
+
+        public void Insertar(Libro obj)
+            => Insertar(obj, new AutorNuevoEditorialNueva());
 
         public void InsertarExistenteAutor(Libro obj)
-        {
-            try
-            {
-                ValidarLibro(obj);
-
-                int idEditorial = LibroDAL.Instance.ObtenerUltimoIdEditorial();
-
-                Libro l = new Libro()
-                {
-                    ID_AUTOR_LIBRO = obj.ID_AUTOR_LIBRO,
-                    ID_EDITORIAL_LIBRO = idEditorial,
-                    ISBN = obj.ISBN,
-                    CONTENIDO = obj.CONTENIDO,
-                    TITULO_LIBRO = obj.TITULO_LIBRO,
-                    ESTADO_LIBRO = "DISPONIBLE",
-                    PUBLICADO = obj.PUBLICADO,
-                };
-
-                LibroDAL.Instance.Insertar(l);
-            }
-            catch (DatosFaltantes ex)
-            {
-                ex.Handle(this);
-                throw;
-            }
-            catch (Exception ex)
-            {
-                ex.Handle(this);
-                throw;
-            }
-        }
+            => Insertar(obj, new AutorExistenteEditorialNueva());
 
         public void InsertarExistenteEditorial(Libro obj)
-        {
-            try
-            {
-                ValidarLibro(obj);
-
-                int idAutor = LibroDAL.Instance.ObtenerUltimoIdAutor();
-
-                Libro l = new Libro()
-                {
-                    ID_AUTOR_LIBRO = idAutor,
-                    ID_EDITORIAL_LIBRO = obj.ID_EDITORIAL_LIBRO,
-                    ISBN = obj.ISBN,
-                    CONTENIDO = obj.CONTENIDO,
-                    TITULO_LIBRO = obj.TITULO_LIBRO,
-                    ESTADO_LIBRO = "DISPONIBLE",
-                    PUBLICADO = obj.PUBLICADO,
-                };
-
-                LibroDAL.Instance.Insertar(l);
-            }
-            catch (DatosFaltantes ex)
-            {
-                ex.Handle(this);
-                throw;
-            }
-            catch (Exception ex)
-            {
-                ex.Handle(this);
-                throw;
-            }
-        }
+            => Insertar(obj, new AutorNuevoEditorialExistente());
 
         public void InsertarExistenteEditorialyAutor(Libro obj)
-        {
-            try
-            {
-                ValidarLibro(obj);
-
-                Libro l = new Libro()
-                {
-                    ID_AUTOR_LIBRO = obj.ID_AUTOR_LIBRO,
-                    ID_EDITORIAL_LIBRO = obj.ID_EDITORIAL_LIBRO,
-                    ISBN = obj.ISBN,
-                    CONTENIDO = obj.CONTENIDO,
-                    TITULO_LIBRO = obj.TITULO_LIBRO,
-                    ESTADO_LIBRO = "DISPONIBLE",
-                    PUBLICADO = obj.PUBLICADO,
-                };
-
-                LibroDAL.Instance.Insertar(l);
-            }
-            catch (DatosFaltantes ex)
-            {
-                ex.Handle(this);
-                throw;
-            }
-            catch (Exception ex)
-            {
-                ex.Handle(this);
-                throw;
-            }
-        }
+            => Insertar(obj, new AutorExistenteEditorialExistente());
 
         public void Eliminar(Libro obj)
         {
