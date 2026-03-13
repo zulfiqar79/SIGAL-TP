@@ -42,7 +42,15 @@ namespace Pantallas
             try
             {
                 List<DAlquiler> lista = BLL.Servicio.alquiler.DetalleAlquilerBLL.Instance.ListaAlquilerMs();
-                dgVerAlqui.DataSource = lista;
+                dgVerAlqui.DataSource = lista
+                    .Select(x => new
+                    {
+                        Titulo      = x.Libro != null ? x.Libro.TITULO_LIBRO : "",
+                        Fecha_Inicio = x.FECHA_INICIO,
+                        Fecha_Fin   = x.FECHA_FIN,
+                        Estado      = x.ESTADO
+                    })
+                    .ToList();
             }
             catch (Exception ex)
             {

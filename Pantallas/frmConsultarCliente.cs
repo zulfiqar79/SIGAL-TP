@@ -23,13 +23,17 @@ namespace Pantallas
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Text = "Consulta de Clientes";
         }
-        private BindingList<Cliente> listaClientes;
         private void btnConsultarCliente_Click(object sender, EventArgs e)
         {
-            //ver. Consultar
-                listaClientes = new BindingList<Cliente>(BLL.Servicio.cliente.ClienteBLL.Instance.ObtenerTodo().ToList());
-                verClientes.DataSource = listaClientes;
-            
+            var clientes = BLL.Servicio.cliente.ClienteBLL.Instance.ObtenerTodo()
+                .Select(x => new
+                {
+                    Nombre   = x.NOMBRE_CLIENTE,
+                    Apellido = x.APELLIDO_CLIENTE,
+                    Correo   = x.CORREO_CLIENTE
+                })
+                .ToList();
+            verClientes.DataSource = clientes;
         }
         private void frmConsultarCliente_FormClosing(object sender, FormClosingEventArgs e)
         {

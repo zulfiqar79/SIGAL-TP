@@ -34,12 +34,21 @@ namespace Pantallas
                 MessageBox.Show(ex.Message);
             }
         }
-        private BindingList<Libro> listaLibro;
         private void btnConsultarLibro_Click(object sender, EventArgs e)
         {
-            listaLibro = new BindingList<Libro>(BLL.Servicio.libro.LibroBLL.Instance.ObtenerTodo().ToList());
-            verLibros.DataSource = listaLibro;
-            
+            var libros = BLL.Servicio.libro.LibroBLL.Instance.ObtenerTodo()
+                .Select(x => new
+                {
+                    Titulo       = x.TITULO_LIBRO,
+                    Autor        = x.Autor != null ? x.Autor.NOMBRE_AUTOR + " " + x.Autor.APELLIDO_AUTOR : "",
+                    Editorial    = x.Editorial != null ? x.Editorial.NOMBRE_EDITORIAL : "",
+                    ISBN         = x.ISBN,
+                    Anio_Publicado = x.PUBLICADO,
+                    Estado       = x.ESTADO_LIBRO,
+                    Contenido    = x.CONTENIDO
+                })
+                .ToList();
+            verLibros.DataSource = libros;
         }
         private void verLibros_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {            
