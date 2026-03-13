@@ -1,4 +1,5 @@
 ﻿using DAL.DAO;
+using Domain;
 using System.Linq;
 
 namespace DAL.AccesoDatos.usuario

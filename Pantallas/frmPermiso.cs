@@ -1,4 +1,4 @@
-﻿using DAL.DAO;
+﻿using Domain;
 using Pantallas.Observer;
 using SL.BLL.ExcepcionBLL;
 using SL.Servicios.Extension;

@@ -1,5 +1,5 @@
 using DAL.AccesoDatos.libro;
-using DAL.DAO;
+using Domain;
 
 namespace BLL.BusinessLogic.libro.Estrategia
 {

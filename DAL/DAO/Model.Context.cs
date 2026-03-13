@@ -12,6 +12,7 @@ namespace DAL.DAO
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using Domain;
     
     public partial class base_sigalEntities : DbContext
     {

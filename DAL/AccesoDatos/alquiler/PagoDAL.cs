@@ -1,4 +1,5 @@
 ﻿using DAL.DAO;
+using Domain;
 
 namespace DAL.AccesoDatos.alquiler
 {

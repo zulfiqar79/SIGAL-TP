@@ -1,4 +1,4 @@
-using DAL.DAO;
+using Domain;
 
 namespace BLL.BusinessLogic.libro.Estrategia
 {
