@@ -1,5 +1,5 @@
 ﻿using DAL.AccesoDatos.cliente;
-using DAL.DAO;
+using Domain;
 using SL.BLL.Contrato;
 using SL.BLL.ExcepcionBLL;
 using SL.Servicios.Extension;

@@ -1,5 +1,5 @@
 ﻿using Catel.Linq;
-using DAL.DAO;
+using Domain;
 using Pantallas.Observer;
 using SL.BLL.ExceptionBLL;
 using SL.Servicios.Extension;

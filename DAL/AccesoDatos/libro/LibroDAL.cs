@@ -1,4 +1,5 @@
 ﻿using DAL.DAO;
+using Domain;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;

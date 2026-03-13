@@ -1,5 +1,5 @@
 ﻿using DAL.AccesoDatos.alquiler;
-using DAL.DAO;
+using Domain;
 using SL.BLL.Contrato;
 using SL.Servicios.Extension;
 using System;

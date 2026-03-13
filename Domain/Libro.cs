@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DAL.DAO
+namespace Domain
 {
     using System;
     using System.Collections.Generic;
