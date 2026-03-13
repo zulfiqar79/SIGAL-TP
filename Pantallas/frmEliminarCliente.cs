@@ -22,6 +22,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Eliminar Cliente";
         }
 
         public void Update(Form form)
@@ -56,7 +57,7 @@ namespace Pantallas
                 string resu = ValidarCorreo.Validar(c.CORREO_CLIENTE);
                 if (resu == "true")
                 {
-                    BLL.Servicio.cliente.ClienteServicio.Instance.Eliminar(c);
+                    BLL.Servicio.cliente.ClienteBLL.Instance.Eliminar(c);
                     txtCorreoCliente.Clear();
 
                     Form f = new frmMensaje(null, c, "ELIMINAR CLIENTE", null);

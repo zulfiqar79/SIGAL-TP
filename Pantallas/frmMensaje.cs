@@ -23,7 +23,8 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-             l = libr;
+            this.Text = "Mensajes";
+            l = libr;
              c = clien;
             a = alquiler;
             this.tipo = tipo;

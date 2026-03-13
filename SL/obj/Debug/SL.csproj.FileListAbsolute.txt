@@ -36,3 +36,15 @@ C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.Johann
 C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/SL/obj/Debug/SL.pdb
 /home/runner/work/SIGAL-TP/SIGAL-TP/SL/obj/Debug/SL.dll
 /home/runner/work/SIGAL-TP/SIGAL-TP/SL/obj/Debug/SL.pdb
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\bin\Debug\SL.dll.config
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\bin\Debug\SL.dll
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\bin\Debug\SL.pdb
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\bin\Debug\EntityFramework.dll
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\bin\Debug\EntityFramework.xml
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\obj\Debug\SL.csproj.AssemblyReference.cache
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\obj\Debug\SL.csproj.CoreCompileInputs.cache
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\obj\Debug\SL.csproj.Up2Date
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\obj\Debug\SL.dll
+C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\SL\obj\Debug\SL.pdb

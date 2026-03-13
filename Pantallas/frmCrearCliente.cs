@@ -22,6 +22,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Creacion de Clientes";
         }
 
         public void Update(Form form)
@@ -69,7 +70,7 @@ namespace Pantallas
 
                 if (resu == "true")
                 {
-                    BLL.Servicio.cliente.ClienteServicio.Instance.Insertar(c);
+                    BLL.Servicio.cliente.ClienteBLL.Instance.Insertar(c);
                     txtNombreCliente.Clear();
                     txtApellidoCliente.Clear();
                     txtCorreoCliente.Clear();

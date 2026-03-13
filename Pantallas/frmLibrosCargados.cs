@@ -20,6 +20,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Libros Cargados";
         }
 
         public void Update(Form form)
@@ -36,7 +37,7 @@ namespace Pantallas
         private BindingList<Libro> listaLibro;
         private void btnConsultarLibro_Click(object sender, EventArgs e)
         {
-            listaLibro = new BindingList<Libro>(BLL.Servicio.libro.LibroServicio.Instance.ObtenerTodo().ToList());
+            listaLibro = new BindingList<Libro>(BLL.Servicio.libro.LibroBLL.Instance.ObtenerTodo().ToList());
             verLibros.DataSource = listaLibro;
             
         }

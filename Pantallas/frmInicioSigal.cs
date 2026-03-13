@@ -1,12 +1,13 @@
 ﻿using Catel.Services;
 using Pantallas.Observer;
+using SL.BLL;
 using SL.Servicios.Extension;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
 using System.Data;
-using System.Data.EntityClient;
+using System.Data.Entity.Core.EntityClient;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Globalization;
@@ -370,45 +371,18 @@ namespace Pantallas
 
                 if (saveDialog.ShowDialog() == DialogResult.OK)
                 {
-                    string backupPath = saveDialog.FileName;
-
-                    // Validate the path ends with .bak
-                    if (!backupPath.EndsWith(".bak", StringComparison.OrdinalIgnoreCase))
-                    {
-                        MessageBox.Show("El archivo de backup debe tener extensión .bak.".Traducir(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return;
-                    }
-
                     try
                     {
-                        string efConnectionString = ConfigurationManager.ConnectionStrings["base_sigalEntities"].ConnectionString;
-                        var efBuilder = new EntityConnectionStringBuilder(efConnectionString);
-                        string sqlConnectionString = efBuilder.ProviderConnectionString;
+                        BackupBLL servicio = new BackupBLL();
+                        servicio.RealizarBackup(saveDialog.FileName);
 
-                        using (var connection = new SqlConnection(sqlConnectionString))
-                        {
-                            connection.Open();
-                            string rawDatabaseName = connection.Database;
-                            if (!System.Text.RegularExpressions.Regex.IsMatch(rawDatabaseName, @"^[\w\-\. ]+$"))
-                            {
-                                MessageBox.Show("El nombre de la base de datos contiene caracteres inválidos.".Traducir(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                return;
-                            }
-                            string databaseName = rawDatabaseName.Replace("]", "]]");
-                            string query = "BACKUP DATABASE [" + databaseName + "] TO DISK = @backupPath WITH FORMAT, INIT, SKIP, NOREWIND, NOUNLOAD, STATS = 10";
-                            using (var command = new SqlCommand(query, connection))
-                            {
-                                command.Parameters.AddWithValue("@backupPath", backupPath);
-                                command.CommandTimeout = 300;
-                                command.ExecuteNonQuery();
-                            }
-                        }
-
-                        MessageBox.Show("Backup realizado correctamente.".Traducir() + "\n" + backupPath, "Backup", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Backup realizado correctamente.".Traducir() + "\n" + saveDialog.FileName,
+                            "Backup", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Error al realizar el backup: ".Traducir() + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Error al realizar el backup: ".Traducir() + ex.Message,
+                            "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }

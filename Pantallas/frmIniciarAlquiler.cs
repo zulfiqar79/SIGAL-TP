@@ -24,6 +24,7 @@ namespace Pantallas
             
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Inicio de Alquiler";
         }
         public void Update(Form form)
         {
@@ -54,7 +55,7 @@ namespace Pantallas
                     TITULO_LIBRO = txtLibro.Text,
                 };
                 //          Buscar libro
-                Libro libroEncontrado = BLL.Servicio.libro.LibroServicio.Instance.Obtener(Buscarlib);
+                Libro libroEncontrado = BLL.Servicio.libro.LibroBLL.Instance.Obtener(Buscarlib);
 
 
                 //valido que monto sea numerico
@@ -70,7 +71,7 @@ namespace Pantallas
                     FECHA_MONTO_PAGO = DateTime.Now,
                     MONTO_PAGO = montoPago
                 };
-                BLL.Servicio.alquiler.PagoServicio.Instance.Insertar(p);                
+                BLL.Servicio.alquiler.PagoBLL.Instance.Insertar(p);                
 
                 //detalle alquiler
                 DAlquiler dA = new DAlquiler()
@@ -81,7 +82,7 @@ namespace Pantallas
                     ID_LIBRO = libroEncontrado.ID_LIBRO
                 };
 
-                BLL.Servicio.alquiler.DetalleAlquilerServicio.Instance.Insertar(dA);
+                BLL.Servicio.alquiler.DetalleAlquilerBLL.Instance.Insertar(dA);
                 
                 //Alquiler
                 //            Buscar cliente
@@ -89,7 +90,7 @@ namespace Pantallas
                 {
                     CORREO_CLIENTE = txtCliente.Text,
                 };
-                Cliente clienteEncontrado = BLL.Servicio.cliente.ClienteServicio.Instance.Obtener(buscarCliente);
+                Cliente clienteEncontrado = BLL.Servicio.cliente.ClienteBLL.Instance.Obtener(buscarCliente);
 
                 //cargar alquiler
                 Alquiler al = new Alquiler()
@@ -98,8 +99,8 @@ namespace Pantallas
                     ID_CLIENTE = clienteEncontrado.ID_CLIENTE,
                 };
 
-                BLL.Servicio.alquiler.AlquilerServicio.Instance.Insertar(al);
-                Alquiler a2 = BLL.Servicio.alquiler.AlquilerServicio.Instance.Obtener(al);
+                BLL.Servicio.alquiler.AlquilerBLL.Instance.Insertar(al);
+                Alquiler a2 = BLL.Servicio.alquiler.AlquilerBLL.Instance.Obtener(al);
 
                 #region botones
                 txtCliente.Clear();

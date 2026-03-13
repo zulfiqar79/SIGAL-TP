@@ -18,6 +18,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Sesión";
         }
 
         private void frmPregunta_Load(object sender, EventArgs e)

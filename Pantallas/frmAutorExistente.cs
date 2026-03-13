@@ -62,7 +62,7 @@ namespace Pantallas
                     APELLIDO_AUTOR = txtApellido.Text,
                 };
                 //Verificar si existe el autor
-                Autor autorExiste = BLL.Servicio.libro.AutorServicio.Instance.Obtener(autor);
+                Autor autorExiste = BLL.Servicio.libro.AutorBLL.Instance.Obtener(autor);
 
                 if (autorExiste != null)
                 {

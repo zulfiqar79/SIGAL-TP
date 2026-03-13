@@ -3,12 +3,196 @@
   "WorkspaceRootPath": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|c:\\users\\zulfiqar\\desktop\\mi-maletin\\__uai__\\___trabajo de diploma\\chomyk.johanntp\\tp tc\\trabajo practico\\bll\\servicio\\alquiler\\alquilerservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\servicio\\alquiler\\alquilerservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|c:\\users\\zulfiqar\\desktop\\mi-maletin\\__uai__\\___trabajo de diploma\\chomyk.johanntp\\tp tc\\trabajo practico\\pantallas\\frmcargalibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmcargalibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA222-CADB-40A3-A055-74944F62FB6F}|Domain\\Domain.csproj|c:\\users\\zulfiqar\\desktop\\mi-maletin\\__uai__\\___trabajo de diploma\\chomyk.johanntp\\tp tc\\trabajo practico\\domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmcargalibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmcargalibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmalquilermes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmalquilermes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\alquiler\\pagobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\alquiler\\pagobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\alquiler\\detallealquilerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\alquiler\\detallealquilerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\alquiler\\alquilerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\alquiler\\alquilerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmautorexistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmautorexistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmalquilermes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmalquilermes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmrenovaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmrenovaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmrenovaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmrenovaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmpregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmpregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmpregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmpregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmmensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmmensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmmensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmmensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmlibroscargados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmlibroscargados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmlibroscargados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmlibroscargados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmlibroalquilado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmlibroalquilado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmlibroalquilado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmlibroalquilado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frminiciosigal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frminiciosigal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frminiciaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frminiciaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frminiciaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frminiciaralquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmeliminarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmeliminarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmeliminarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmeliminarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmeditorialexistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmeditorialexistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmdevolucionalquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmdevolucionalquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmdevolucionalquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmdevolucionalquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmcrearcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmcrearcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmcrearcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmcrearcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmconsultarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmconsultarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frmconsultarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frmconsultarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2664047-BB8B-453E-9497-870D9E0C1E22}|SL\\SL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\sl\\bll\\backup\\backupbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2664047-BB8B-453E-9497-870D9E0C1E22}|SL\\SL.csproj|solutionrelative:sl\\bll\\backup\\backupbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\pantallas\\frminiciosigal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA52744-A971-4CA9-9A14-425B5BB608FC}|Pantallas\\Pantallas.csproj|solutionrelative:pantallas\\frminiciosigal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2664047-BB8B-453E-9497-870D9E0C1E22}|SL\\SL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\sl\\dal\\backupdal\\backupdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2664047-BB8B-453E-9497-870D9E0C1E22}|SL\\SL.csproj|solutionrelative:sl\\dal\\backupdal\\backupdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3DA6D0-C6DE-47FD-AEC3-9308660BEA4A}|DAL\\DAL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\dal\\accesodatos\\alquiler\\detallealquilerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3DA6D0-C6DE-47FD-AEC3-9308660BEA4A}|DAL\\DAL.csproj|solutionrelative:dal\\accesodatos\\alquiler\\detallealquilerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA222-CADB-40A3-A055-74944F62FB6F}|Domain\\Domain.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\domain\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA222-CADB-40A3-A055-74944F62FB6F}|Domain\\Domain.csproj|solutionrelative:domain\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA222-CADB-40A3-A055-74944F62FB6F}|Domain\\Domain.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE0CA222-CADB-40A3-A055-74944F62FB6F}|Domain\\Domain.csproj|solutionrelative:domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA222-CADB-40A3-A055-74944F62FB6F}|Domain\\Domain.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\domain\\autor_editorial_existente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA222-CADB-40A3-A055-74944F62FB6F}|Domain\\Domain.csproj|solutionrelative:domain\\autor_editorial_existente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\usuario\\usuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\usuario\\usuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\usuario\\permisousuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\usuario\\permisousuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\libro\\librobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\libro\\librobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\libro\\editorialbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\libro\\editorialbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\libro\\autorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\libro\\autorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\bll\\businesslogic\\cliente\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B62A2CB-9AAB-4D9C-8962-7449BC6FBDC4}|BLL\\BLL.csproj|solutionrelative:bll\\businesslogic\\cliente\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +202,528 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAlquilerMes.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmAlquilerMes.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmAlquilerMes.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmAlquilerMes.cs",
+              "RelativeToolTip": "Pantallas\\frmAlquilerMes.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:25:55.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmCargaLibro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCargaLibro.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmCargaLibro.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCargaLibro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmCargaLibro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:02.407Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCargaLibro.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCargaLibro.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmCargaLibro.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCargaLibro.cs",
+              "RelativeToolTip": "Pantallas\\frmCargaLibro.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:04.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlquilerBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\alquiler\\AlquilerBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\alquiler\\AlquilerBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\alquiler\\AlquilerBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\alquiler\\AlquilerBLL.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T17:43:02.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleAlquilerBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\alquiler\\DetalleAlquilerBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\alquiler\\DetalleAlquilerBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\alquiler\\DetalleAlquilerBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\alquiler\\DetalleAlquilerBLL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:17:25.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\alquiler\\PagoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\alquiler\\PagoBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\alquiler\\PagoBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\alquiler\\PagoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:17:59.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmAutorExistente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmAutorExistente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmAutorExistente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmAutorExistente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmAutorExistente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:40:12.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmAlquilerMes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmAlquilerMes.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmAlquilerMes.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmAlquilerMes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmAlquilerMes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:25:53.89Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmRenovarAlquiler.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmRenovarAlquiler.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmRenovarAlquiler.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmRenovarAlquiler.cs",
+              "RelativeToolTip": "Pantallas\\frmRenovarAlquiler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:44:39.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmPermiso.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPermiso.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmPermiso.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPermiso.cs",
+              "RelativeToolTip": "Pantallas\\frmPermiso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:44:09.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmPregunta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPregunta.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmPregunta.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPregunta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmPregunta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:44:18.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmPregunta.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPregunta.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmPregunta.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPregunta.cs",
+              "RelativeToolTip": "Pantallas\\frmPregunta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:44:25.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmRenovarAlquiler.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmRenovarAlquiler.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmRenovarAlquiler.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmRenovarAlquiler.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmRenovarAlquiler.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:44:37.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmPermiso.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPermiso.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmPermiso.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmPermiso.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmPermiso.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:44:08.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmMensaje.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmMensaje.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmMensaje.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmMensaje.cs",
+              "RelativeToolTip": "Pantallas\\frmMensaje.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:54.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmMensaje.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmMensaje.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmMensaje.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmMensaje.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmMensaje.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:51.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmLibrosCargados.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibrosCargados.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmLibrosCargados.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibrosCargados.cs",
+              "RelativeToolTip": "Pantallas\\frmLibrosCargados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:39.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmLibrosCargados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibrosCargados.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmLibrosCargados.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibrosCargados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmLibrosCargados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:38.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmLibroAlquilado.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibroAlquilado.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmLibroAlquilado.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibroAlquilado.cs",
+              "RelativeToolTip": "Pantallas\\frmLibroAlquilado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:26.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmLibroAlquilado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibroAlquilado.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmLibroAlquilado.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmLibroAlquilado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmLibroAlquilado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:24.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmInicio.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:18.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmIniciarAlquiler.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmIniciarAlquiler.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmIniciarAlquiler.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmIniciarAlquiler.cs",
+              "RelativeToolTip": "Pantallas\\frmIniciarAlquiler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:03.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmIniciarAlquiler.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmIniciarAlquiler.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmIniciarAlquiler.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmIniciarAlquiler.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmIniciarAlquiler.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:43:02.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmEliminarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmEliminarCliente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmEliminarCliente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmEliminarCliente.cs",
+              "RelativeToolTip": "Pantallas\\frmEliminarCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:42:42.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmInicioSigal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmInicioSigal.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmInicioSigal.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmInicioSigal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmInicioSigal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T02:48:31.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmEliminarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmEliminarCliente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmEliminarCliente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmEliminarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmEliminarCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:42:40.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmEditorialExistente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmEditorialExistente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmEditorialExistente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmEditorialExistente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmEditorialExistente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:42:38.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmDevolucionAlquiler.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmDevolucionAlquiler.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmDevolucionAlquiler.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmDevolucionAlquiler.cs",
+              "RelativeToolTip": "Pantallas\\frmDevolucionAlquiler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:42:24.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmDevolucionAlquiler.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmDevolucionAlquiler.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmDevolucionAlquiler.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmDevolucionAlquiler.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmDevolucionAlquiler.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:42:23.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmCrearUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearUsuario.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmCrearUsuario.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearUsuario.cs",
+              "RelativeToolTip": "Pantallas\\frmCrearUsuario.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:55.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmCrearUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearUsuario.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmCrearUsuario.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmCrearUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:53.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmCrearCliente.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearCliente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmCrearCliente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearCliente.cs",
+              "RelativeToolTip": "Pantallas\\frmCrearCliente.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:35.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmCrearCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearCliente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmCrearCliente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmCrearCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmCrearCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:33.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmConsultarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmConsultarCliente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmConsultarCliente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmConsultarCliente.cs",
+              "RelativeToolTip": "Pantallas\\frmConsultarCliente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:20.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmConsultarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmConsultarCliente.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmConsultarCliente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmConsultarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\frmConsultarCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:41:18.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BackupDAL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\SL\\DAL\\BackupDAL\\BackupDAL.cs",
+              "RelativeDocumentMoniker": "SL\\DAL\\BackupDAL\\BackupDAL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\SL\\DAL\\BackupDAL\\BackupDAL.cs",
+              "RelativeToolTip": "SL\\DAL\\BackupDAL\\BackupDAL.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:07:37.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BackupBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\SL\\BLL\\Backup\\BackupBLL.cs",
+              "RelativeDocumentMoniker": "SL\\BLL\\Backup\\BackupBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\SL\\BLL\\Backup\\BackupBLL.cs",
+              "RelativeToolTip": "SL\\BLL\\Backup\\BackupBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:04:33.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmInicioSigal.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmInicioSigal.cs",
+              "RelativeDocumentMoniker": "Pantallas\\frmInicioSigal.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Pantallas\\frmInicioSigal.cs",
+              "RelativeToolTip": "Pantallas\\frmInicioSigal.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAowHcBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T02:43:07.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DetalleAlquilerDAL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\DAL\\AccesoDatos\\alquiler\\DetalleAlquilerDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\AccesoDatos\\alquiler\\DetalleAlquilerDAL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\DAL\\AccesoDatos\\alquiler\\DetalleAlquilerDAL.cs",
+              "RelativeToolTip": "DAL\\AccesoDatos\\alquiler\\DetalleAlquilerDAL.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T19:54:12.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Domain\\Autor.cs",
+              "RelativeDocumentMoniker": "Domain\\Autor.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Domain\\Autor.cs",
+              "RelativeToolTip": "Domain\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T19:53:43.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Autor_Editorial_existente.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Domain\\Autor_Editorial_existente.cs",
+              "RelativeDocumentMoniker": "Domain\\Autor_Editorial_existente.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Domain\\Autor_Editorial_existente.cs",
+              "RelativeToolTip": "Domain\\Autor_Editorial_existente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T19:53:40.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UsuarioBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\usuario\\UsuarioBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\usuario\\UsuarioBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\usuario\\UsuarioBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\usuario\\UsuarioBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:19:47.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PermisoUsuarioBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\usuario\\PermisoUsuarioBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\usuario\\PermisoUsuarioBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\usuario\\PermisoUsuarioBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\usuario\\PermisoUsuarioBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:19:31.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LibroBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\libro\\LibroBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\libro\\LibroBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\libro\\LibroBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\libro\\LibroBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:19:12.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\Domain\\Cliente.cs",
               "RelativeDocumentMoniker": "Domain\\Cliente.cs",
@@ -30,21 +731,43 @@
               "RelativeToolTip": "Domain\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T17:43:16.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T17:43:16.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlquilerServicio.cs",
-              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\Servicio\\alquiler\\AlquilerServicio.cs",
-              "RelativeDocumentMoniker": "BLL\\Servicio\\alquiler\\AlquilerServicio.cs",
-              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\Servicio\\alquiler\\AlquilerServicio.cs",
-              "RelativeToolTip": "BLL\\Servicio\\alquiler\\AlquilerServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 45,
+              "Title": "EditorialBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\libro\\EditorialBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\libro\\EditorialBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\libro\\EditorialBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\libro\\EditorialBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T17:43:02.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T18:18:55.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AutorBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\libro\\AutorBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\libro\\AutorBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\libro\\AutorBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\libro\\AutorBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:18:36.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ClienteBLL.cs",
+              "DocumentMoniker": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\cliente\\ClienteBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessLogic\\cliente\\ClienteBLL.cs",
+              "ToolTip": "C:\\Users\\zulfiqar\\Desktop\\MI-MALETIN\\__UAI__\\___Trabajo de Diploma\\Chomyk.JohannTP\\TP TC\\Trabajo Practico\\BLL\\BusinessLogic\\cliente\\ClienteBLL.cs",
+              "RelativeToolTip": "BLL\\BusinessLogic\\cliente\\ClienteBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:18:18.501Z"
             }
           ]
         }

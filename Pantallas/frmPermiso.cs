@@ -21,6 +21,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Permisos";
         }
 
         public void Update(Form form)
@@ -74,7 +75,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -87,7 +88,7 @@ namespace Pantallas
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
                     
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
                     {
@@ -103,8 +104,8 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso2);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
 
                     Form f = new frmMensaje(null, null, "PERMISO1", null);
                     f.Show();
@@ -121,7 +122,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -132,7 +133,7 @@ namespace Pantallas
                     };
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
 
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
@@ -149,8 +150,8 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso2);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
 
                     Form f = new frmMensaje(null, null, "PERMISO2", null);
                     f.Show();
@@ -166,7 +167,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -177,7 +178,7 @@ namespace Pantallas
                     };
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
 
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
@@ -207,10 +208,10 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso2);
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso3);
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso4);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso3);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso4);
 
                     Form f = new frmMensaje(null, null, "PERMISO3", null);
                     f.Show();
@@ -228,7 +229,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -241,7 +242,7 @@ namespace Pantallas
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
                     {
@@ -251,7 +252,7 @@ namespace Pantallas
                     };
                     
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
 
                     Form f = new frmMensaje(null, null, "PERMISO4", null);
                     f.Show();
@@ -267,7 +268,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -280,7 +281,7 @@ namespace Pantallas
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
                     {
@@ -289,7 +290,7 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
 
                     Form f = new frmMensaje(null, null, "PERMISO5", null);
                     f.Show();
@@ -304,7 +305,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -317,7 +318,7 @@ namespace Pantallas
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
                     {
@@ -326,7 +327,7 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso2);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
 
                     Form f = new frmMensaje(null, null, "PERMISO6", null);
                     f.Show();
@@ -341,7 +342,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -354,7 +355,7 @@ namespace Pantallas
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
 
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
@@ -364,7 +365,7 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso2);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
 
                     Form f = new frmMensaje(null, null, "PERMISO7", null);
                     f.Show();
@@ -379,7 +380,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -392,7 +393,7 @@ namespace Pantallas
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
                     {
@@ -408,8 +409,8 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso2);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
 
                     Form f = new frmMensaje(null, null, "PERMISO8", null);
                     f.Show();
@@ -425,7 +426,7 @@ namespace Pantallas
                     usuario.USUARIO1 = txtUsuario.Text;
 
                     //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioServicio.Instance.ObtenerUsuarioPermiso(usuario);
+                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
                     //obtengo el ID del usuario
                     int ID_USUARIO = existeUsuario.ID_USUARIO;
 
@@ -438,7 +439,7 @@ namespace Pantallas
                     string nomUsu = UsuarioActivo.NombreDeUsuario;
 
 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Eliminar(usuarioEliminar);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
                     //Creo objeto Permiso usuario con el ID del usuario
                     UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
                     {
@@ -454,8 +455,8 @@ namespace Pantallas
                         USER_CREACION = nomUsu
                     };
                     //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.Insertar(usuarioPermiso2);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
+                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
 
                     Form f = new frmMensaje(null, null, "PERMISO9", null);
                     f.Show();

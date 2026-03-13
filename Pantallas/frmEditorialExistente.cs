@@ -56,7 +56,7 @@ namespace Pantallas
                     NOMBRE_EDITORIAL = txtNombre.Text,
                 };
                 //Verificar si existe el autor
-                Editorial ediEx = BLL.Servicio.libro.EditorialServicio.Instance.Obtener(edi);
+                Editorial ediEx = BLL.Servicio.libro.EditorialBLL.Instance.Obtener(edi);
 
                 if (ediEx != null)
                 {

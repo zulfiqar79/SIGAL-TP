@@ -48,15 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Servicio\alquiler\AlquilerServicio.cs" />
-    <Compile Include="Servicio\libro\AutorServicio.cs" />
-    <Compile Include="Servicio\cliente\ClienteServicio.cs" />
-    <Compile Include="Servicio\alquiler\DetalleAlquilerServicio.cs" />
-    <Compile Include="Servicio\libro\EditorialServicio.cs" />
-    <Compile Include="Servicio\libro\LibroServicio.cs" />
-    <Compile Include="Servicio\alquiler\PagoServicio.cs" />
-    <Compile Include="Servicio\usuario\PermisoUsuarioServicio.cs" />
-    <Compile Include="Servicio\usuario\UsuarioServicio.cs" />
+    <Compile Include="BusinessLogic\alquiler\AlquilerBLL.cs" />
+    <Compile Include="BusinessLogic\libro\AutorBLL.cs" />
+    <Compile Include="BusinessLogic\cliente\ClienteBLL.cs" />
+    <Compile Include="BusinessLogic\alquiler\DetalleAlquilerBLL.cs" />
+    <Compile Include="BusinessLogic\libro\EditorialBLL.cs" />
+    <Compile Include="BusinessLogic\libro\LibroBLL.cs" />
+    <Compile Include="BusinessLogic\alquiler\PagoBLL.cs" />
+    <Compile Include="BusinessLogic\usuario\PermisoUsuarioBLL.cs" />
+    <Compile Include="BusinessLogic\usuario\UsuarioBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Backup\BackupBLL.cs" />
     <Compile Include="BLL\Contrato\IGeneralServicio.cs" />
     <Compile Include="BLL\ExceptionBLL\AccesoDenegadoExcepcion.cs" />
     <Compile Include="BLL\ExceptionBLL\AlquilerFinalizado.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="BLL\LogBLL\LoggerBLL.cs" />
     <Compile Include="Correo\ValidarCorreo.cs" />
     <Compile Include="Cryptoghapy\CryptographyService.cs" />
+    <Compile Include="DAL\BackupDAL\BackupDAL.cs" />
     <Compile Include="DAL\IdiomaDAL\Idioma_dal.cs" />
     <Compile Include="DAL\LogDAL\LoggerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

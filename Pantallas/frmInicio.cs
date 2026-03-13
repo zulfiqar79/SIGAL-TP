@@ -39,7 +39,7 @@ namespace Pantallas
 
                 
                 //buscar el usuario para iniciar sesión, si existe y si son validos los datos ingresados
-                Usuario inicio = BLL.Servicio.usuario.UsuarioServicio.Instance.Obtener(us);
+                Usuario inicio = BLL.Servicio.usuario.UsuarioBLL.Instance.Obtener(us);
 
                 if (inicio != null) //tiene acceso
                 {
@@ -51,7 +51,7 @@ namespace Pantallas
                         ID_USUARIO = inicio.ID_USUARIO
                     };
                     List<UsuarioPermiso> listaDePermisos =
-                        BLL.Servicio.usuario.PermisoUsuarioServicio.Instance.ListaDePermisos(usuarioPermiso);
+                        BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.ListaDePermisos(usuarioPermiso);
 
                         EvaluarPermisos(listaDePermisos);
 

@@ -51,21 +51,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoDatos\alquiler\AlquilerDAL.cs" />
-    <Compile Include="AccesoDatos\alquiler\AlquilerServicio.cs" />
     <Compile Include="AccesoDatos\alquiler\DetalleAlquilerDAL.cs" />
-    <Compile Include="AccesoDatos\alquiler\DetalleAlquilerServicio.cs" />
     <Compile Include="AccesoDatos\alquiler\PagoDAL.cs" />
-    <Compile Include="AccesoDatos\alquiler\PagoServicio.cs" />
     <Compile Include="AccesoDatos\cliente\ClienteDAL.cs" />
-    <Compile Include="AccesoDatos\cliente\ClienteServicio.cs" />
     <Compile Include="AccesoDatos\libro\AutorDAL.cs" />
-    <Compile Include="AccesoDatos\libro\AutorServicio.cs" />
     <Compile Include="AccesoDatos\libro\EditorialDAL.cs" />
-    <Compile Include="AccesoDatos\libro\EditorialServicio.cs" />
     <Compile Include="AccesoDatos\libro\LibroDAL.cs" />
-    <Compile Include="AccesoDatos\libro\LibroServicio.cs" />
     <Compile Include="AccesoDatos\usuario\PermisoUsuarioDAL.cs" />
-    <Compile Include="AccesoDatos\usuario\PermisoUsuarioServicio.cs" />
     <Compile Include="AccesoDatos\usuario\UsuarioDAL.cs" />
     <Compile Include="AccesoDatos\usuario\UsuarioServicio.cs" />
     <Compile Include="DAO\Model.Context.cs">

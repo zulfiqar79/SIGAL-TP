@@ -1,23 +1,22 @@
-﻿using DAL.DAO;
+﻿using DAL.AccesoDatos.alquiler;
+using DAL.DAO;
 using SL.BLL.Contrato;
 using SL.Servicios.Extension;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DAL.AccesoDatos.alquiler
+namespace BLL.Servicio.alquiler
 {
-    public sealed class PagoServicio : IGeneralServicio<Pago>
+    public sealed class PagoBLL : IGeneralServicio<Pago>
     {
         #region
-        private readonly static PagoServicio _instance = new PagoServicio();
-        public static PagoServicio Instance { get { return _instance; } }
-        private PagoServicio()
+        private readonly static PagoBLL _instance = new PagoBLL();
+        public static PagoBLL Instance { get { return _instance; } }
+        private PagoBLL()
         {
         }
         #endregion
+
         public void Eliminar(Pago obj)
         {
             throw new NotImplementedException();
@@ -27,11 +26,10 @@ namespace DAL.AccesoDatos.alquiler
         {
             try
             {
-                using (base_sigalEntities db = new base_sigalEntities())
-                {//fecha y monto
-                    db.Pago.Add(obj);
-                    db.SaveChanges();
-                }
+                // acá después podés agregar validaciones de negocio
+                // por ejemplo validar monto, fecha, etc.
+
+                PagoDAL.Instance.Insertar(obj);
             }
             catch (Exception ex)
             {

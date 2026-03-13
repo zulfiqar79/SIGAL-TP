@@ -20,6 +20,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Devolucion de Alquileres";
         }
 
         public void Update(Form form)
@@ -50,7 +51,7 @@ namespace Pantallas
                     ID_LIBRO = Convert.ToInt32(txtCodigoLibro.Text),
                     TITULO_LIBRO = txtNombreLibro.Text,
                 };
-                Libro libEncontrado = BLL.Servicio.libro.LibroServicio.Instance.Obtener(buscar);
+                Libro libEncontrado = BLL.Servicio.libro.LibroBLL.Instance.Obtener(buscar);
 
                 //Busco alquiler, lo modifico a finalizado
                 DAlquiler dA = new DAlquiler()
@@ -59,7 +60,7 @@ namespace Pantallas
                     ID_LIBRO = libEncontrado.ID_LIBRO,
                 };
 
-                BLL.Servicio.alquiler.DetalleAlquilerServicio.Instance.Modificar(dA);
+                BLL.Servicio.alquiler.DetalleAlquilerBLL.Instance.Modificar(dA);
                 Form f = new frmMensaje(libEncontrado, null, "REGISTRAR DEVOLUCIÓN", null);
                 f.Show();
 

@@ -19,6 +19,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Renovar Alquiler";
         }
 
         public void Update(Form form)
@@ -50,7 +51,7 @@ namespace Pantallas
                     ID_LIBRO = Convert.ToInt32(txtCodigoLibro.Text),
                     TITULO_LIBRO = txtNombreLibro.Text,
                 };
-                Libro libEncontrado = BLL.Servicio.libro.LibroServicio.Instance.Obtener(buscar);
+                Libro libEncontrado = BLL.Servicio.libro.LibroBLL.Instance.Obtener(buscar);
 
                 //Busco alquiler, lo modifico a finalizado
                 DAlquiler dA = new DAlquiler()
@@ -59,7 +60,7 @@ namespace Pantallas
                     ID_LIBRO = libEncontrado.ID_LIBRO,
                 };
 
-                BLL.Servicio.alquiler.DetalleAlquilerServicio.Instance.Modificar(dA);
+                BLL.Servicio.alquiler.DetalleAlquilerBLL.Instance.Modificar(dA);
 
                 //-------------------Registro pago----------------------
                 Pago p = new Pago()
@@ -67,7 +68,7 @@ namespace Pantallas
                     FECHA_MONTO_PAGO = DateTime.Now,
                     MONTO_PAGO = Convert.ToInt32(txtMontoPago.Text),
                 };
-                BLL.Servicio.alquiler.PagoServicio.Instance.Insertar(p);
+                BLL.Servicio.alquiler.PagoBLL.Instance.Insertar(p);
 
                 //---------Detalle del nuev alquiler----------- Lo cargo
                 DAlquiler dA2 = new DAlquiler()
@@ -79,7 +80,7 @@ namespace Pantallas
                     
                 };
                 
-                BLL.Servicio.alquiler.DetalleAlquilerServicio.Instance.Insertar(dA2);
+                BLL.Servicio.alquiler.DetalleAlquilerBLL.Instance.Insertar(dA2);
 
                 //Alquiler -------------'renovado'-----------------
                 //Buscar cliente
@@ -87,7 +88,7 @@ namespace Pantallas
                 {
                     CORREO_CLIENTE = txtCorreoCliente.Text,
                 };
-                Cliente clienteEncontrado = BLL.Servicio.cliente.ClienteServicio.Instance.Obtener(buscarCliente);
+                Cliente clienteEncontrado = BLL.Servicio.cliente.ClienteBLL.Instance.Obtener(buscarCliente);
 
                 //cargar alquiler
                 Alquiler al = new Alquiler()
@@ -97,10 +98,10 @@ namespace Pantallas
               
                 };
 
-                BLL.Servicio.alquiler.AlquilerServicio.Instance.Insertar(al);
+                BLL.Servicio.alquiler.AlquilerBLL.Instance.Insertar(al);
 
                 //Busca el ultimo alquiler creado.
-                Alquiler alquilerEncontrado = BLL.Servicio.alquiler.AlquilerServicio.Instance.Obtener(al);
+                Alquiler alquilerEncontrado = BLL.Servicio.alquiler.AlquilerBLL.Instance.Obtener(al);
 
                 Form f = new frmMensaje(libEncontrado, clienteEncontrado, "ALQUILER RENOVADO", alquilerEncontrado);
                 f.Show();

@@ -23,6 +23,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Carga de Libros";
         }
 
         public void Update(Form form)
@@ -79,7 +80,7 @@ namespace Pantallas
                         NOMBRE_AUTOR = Autor_Editorial_existente.NOMBRE_AUTOR,
                         APELLIDO_AUTOR = Autor_Editorial_existente.APELLIDO_AUTOR,
                     };
-                    Autor autorExiste = BLL.Servicio.libro.AutorServicio.Instance.Obtener(a2);
+                    Autor autorExiste = BLL.Servicio.libro.AutorBLL.Instance.Obtener(a2);
                     //Crear editorial
                     Editorial ed2 = new Editorial()
                     {
@@ -88,7 +89,7 @@ namespace Pantallas
                         DIRECCION = txtDireccion.Text,
                         PAIS = txtPais.Text,
                     };
-                    BLL.Servicio.libro.EditorialServicio.Instance.Insertar(ed2);
+                    BLL.Servicio.libro.EditorialBLL.Instance.Insertar(ed2);
                     //crear libro
                     Libro l2 = new Libro()
                     {
@@ -98,7 +99,7 @@ namespace Pantallas
                         PUBLICADO = Convert.ToInt32(txtAno.Text),
                         ID_AUTOR_LIBRO = autorExiste.ID_AUTOR
                     };
-                    BLL.Servicio.libro.LibroServicio.Instance.InsertarExistenteAutor(l2);
+                    BLL.Servicio.libro.LibroBLL.Instance.InsertarExistenteAutor(l2);
                     #region botones
                     txtTituloLibro.Clear();
                     txtContenido.Clear();
@@ -125,14 +126,14 @@ namespace Pantallas
                         APELLIDO_AUTOR = txtApellido.Text,
                         NACIMIENTO = Convert.ToInt32(txtNacimientoAutor.Text)
                     };
-                    BLL.Servicio.libro.AutorServicio.Instance.Insertar(a);
+                    BLL.Servicio.libro.AutorBLL.Instance.Insertar(a);
 
                     //Buscar editorial
                     Editorial edi = new Editorial()
                     {
                         NOMBRE_EDITORIAL = Autor_Editorial_existente.NOMBRE_EDITORIAL
                     };
-                    Editorial editorialExiste = BLL.Servicio.libro.EditorialServicio.Instance.Obtener(edi);
+                    Editorial editorialExiste = BLL.Servicio.libro.EditorialBLL.Instance.Obtener(edi);
 
                     //crear libro
                     Libro l2 = new Libro()
@@ -143,7 +144,7 @@ namespace Pantallas
                         PUBLICADO = Convert.ToInt32(txtAno.Text),
                         ID_EDITORIAL_LIBRO=editorialExiste.ID_EDITORIAL
                     };
-                    BLL.Servicio.libro.LibroServicio.Instance.InsertarExistenteEditorial(l2);
+                    BLL.Servicio.libro.LibroBLL.Instance.InsertarExistenteEditorial(l2);
                     #region botones
                     txtTituloLibro.Clear();
                     txtContenido.Clear();
@@ -171,7 +172,7 @@ namespace Pantallas
                         APELLIDO_AUTOR = txtApellido.Text,
                         NACIMIENTO = Convert.ToInt32(txtNacimientoAutor.Text)
                     };
-                    BLL.Servicio.libro.AutorServicio.Instance.Insertar(a);
+                    BLL.Servicio.libro.AutorBLL.Instance.Insertar(a);
 
                     //crear editorial
                     Editorial ed = new Editorial()
@@ -181,7 +182,7 @@ namespace Pantallas
                         DIRECCION = txtDireccion.Text,
                         PAIS = txtPais.Text,
                     };
-                    BLL.Servicio.libro.EditorialServicio.Instance.Insertar(ed);
+                    BLL.Servicio.libro.EditorialBLL.Instance.Insertar(ed);
 
                     //crear libro
                     Libro l = new Libro()
@@ -191,7 +192,7 @@ namespace Pantallas
                         TITULO_LIBRO = txtTituloLibro.Text,
                         PUBLICADO = Convert.ToInt32(txtAno.Text)
                     };
-                    BLL.Servicio.libro.LibroServicio.Instance.Insertar(l);
+                    BLL.Servicio.libro.LibroBLL.Instance.Insertar(l);
 
                     #region botones
                     txtTituloLibro.Clear();
@@ -220,14 +221,14 @@ namespace Pantallas
                         NOMBRE_AUTOR = Autor_Editorial_existente.NOMBRE_AUTOR,
                         APELLIDO_AUTOR = Autor_Editorial_existente.APELLIDO_AUTOR,
                     };
-                    Autor autorExiste = BLL.Servicio.libro.AutorServicio.Instance.Obtener(a2);
+                    Autor autorExiste = BLL.Servicio.libro.AutorBLL.Instance.Obtener(a2);
 
                     //Buscar editorial
                     Editorial edi = new Editorial()
                     {
                         NOMBRE_EDITORIAL = Autor_Editorial_existente.NOMBRE_EDITORIAL
                     };
-                    Editorial editorialExiste = BLL.Servicio.libro.EditorialServicio.Instance.Obtener(edi);
+                    Editorial editorialExiste = BLL.Servicio.libro.EditorialBLL.Instance.Obtener(edi);
                     //Cargar libro
                     Libro l2 = new Libro()
                     {
@@ -238,7 +239,7 @@ namespace Pantallas
                         ID_AUTOR_LIBRO = autorExiste.ID_AUTOR,
                         ID_EDITORIAL_LIBRO = editorialExiste.ID_EDITORIAL
                     };
-                    BLL.Servicio.libro.LibroServicio.Instance.InsertarExistenteEditorialyAutor(l2);
+                    BLL.Servicio.libro.LibroBLL.Instance.InsertarExistenteEditorialyAutor(l2);
                     #region botones
                     txtTituloLibro.Clear();
                     txtContenido.Clear();

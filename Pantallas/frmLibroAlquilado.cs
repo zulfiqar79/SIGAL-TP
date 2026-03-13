@@ -21,6 +21,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Libros Alquilados";
         }
 
         public void Update(Form form)
@@ -45,7 +46,7 @@ namespace Pantallas
                 //verLibros.DataSource = listaLibros.ToList();
                 // ***
                 Libro lib = new Libro();
-                List<Libro> lista = BLL.Servicio.libro.LibroServicio.Instance.ListaDeLibro(lib);
+                List<Libro> lista = BLL.Servicio.libro.LibroBLL.Instance.ListaDeLibro(lib);
 
                 verLibros.DataSource = lista;
                 //**

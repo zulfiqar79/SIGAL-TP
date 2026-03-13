@@ -22,6 +22,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Crear Nuevos Usuarios";
         }
 
         public void Update(Form form)
@@ -64,7 +65,7 @@ namespace Pantallas
                 };
 
                 //se lo paso a BLL
-                BLL.Servicio.usuario.UsuarioServicio.Instance.Insertar(us);
+                BLL.Servicio.usuario.UsuarioBLL.Instance.Insertar(us);
                 
                 
                 Form f = new frmMensaje(null,null,"USUARIO",null);

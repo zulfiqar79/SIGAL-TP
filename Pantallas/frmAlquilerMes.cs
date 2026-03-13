@@ -20,6 +20,7 @@ namespace Pantallas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Alquileres del Mes";
         }
 
         public void Update(Form form)
@@ -40,7 +41,7 @@ namespace Pantallas
         {
             try
             {
-                List<DAlquiler> lista = BLL.Servicio.alquiler.DetalleAlquilerServicio.Instance.ListaAlquilerMs();
+                List<DAlquiler> lista = BLL.Servicio.alquiler.DetalleAlquilerBLL.Instance.ListaAlquilerMs();
                 dgVerAlqui.DataSource = lista;
             }
             catch (Exception ex)
