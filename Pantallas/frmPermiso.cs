@@ -1,17 +1,11 @@
-﻿using Domain;
+﻿using BLL.BusinessLogic.usuario;
+using Domain;
+using Domain.Composite;
 using Pantallas.Observer;
 using SL.BLL.ExcepcionBLL;
 using SL.Servicios.Extension;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Pantallas
 {
@@ -43,7 +37,7 @@ namespace Pantallas
 
                 btnConfirmar.Text = "CONFIRMAR".Traducir();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 LoggerService.WriteLog(ex.Message);
                 MessageBox.Show(ex.Message);
@@ -57,461 +51,102 @@ namespace Pantallas
             helpProvider1.SetHelpString(this, "Permiso");
             helpProvider1.SetHelpKeyword(this, "Permiso");
             helpProvider1.SetHelpNavigator(this, HelpNavigator.KeywordIndex);
-        }        
+        }
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
             try
             {
-                if (String.IsNullOrEmpty(txtUsuario.Text))
-                {
+                if (string.IsNullOrEmpty(txtUsuario.Text))
                     throw new DatosFaltantes();
-                }
 
-                if (cbAlquiler.Checked == true && cbLibro.Checked == true && cbCliente.Checked == false && cbUsuario.Checked == false)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
+                bool alq = cbAlquiler.Checked;
+                bool lib = cbLibro.Checked;
+                bool cli = cbCliente.Checked;
+                bool usu = cbUsuario.Checked;
 
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
+                // Verificar que al menos un permiso esté seleccionado
+                if (!alq && !lib && !cli && !usu)
+                    throw new DatosFaltantes();
 
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
+                // Combinaciones inválidas (comportamiento preservado del sistema original)
+                bool combinacionInvalida =
+                    (!alq && lib && !cli && usu) ||   // solo Libro+Usuario
+                    (alq && !lib && cli && !usu) ||   // solo Alquiler+Cliente
+                    (alq && lib && cli && !usu) ||    // Alquiler+Libro+Cliente sin Usuario
+                    (alq && lib && !cli && usu) ||    // Alquiler+Libro+Usuario sin Cliente
+                    (alq && !lib && cli && usu) ||    // Alquiler+Cliente+Usuario sin Libro
+                    (!alq && lib && cli && usu);      // Libro+Cliente+Usuario sin Alquiler
 
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-                    
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 13,
-                        USER_CREACION = nomUsu
-                    };
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO ,//Asigno ID encontrado
-                        ID_PERMISO=14,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
-
-                    Form f = new frmMensaje(null, null, "PERMISO1", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbAlquiler.Checked = false;
-                    cbLibro.Checked = false;
-                    
-                }
-                if (cbCliente.Checked == true && cbUsuario.Checked == true && cbAlquiler.Checked == false && cbLibro.Checked == false)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 15,
-                        USER_CREACION = nomUsu
-                    };
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO,//Asigno ID encontrado
-                        ID_PERMISO = 16,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
-
-                    Form f = new frmMensaje(null, null, "PERMISO2", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbCliente.Checked = false;
-                    cbUsuario.Checked = false;
-                }
-                if (cbCliente.Checked == true && cbUsuario.Checked == true && cbAlquiler.Checked == true && cbLibro.Checked == true)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 13,
-                        USER_CREACION = nomUsu
-                    };
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO,//Asigno ID encontrado
-                        ID_PERMISO = 14,
-                        USER_CREACION = nomUsu
-                    };
-                    UsuarioPermiso usuarioPermiso3= new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 15,
-                        USER_CREACION = nomUsu
-                    };
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso4= new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO,//Asigno ID encontrado
-                        ID_PERMISO = 16,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso3);
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso4);
-
-                    Form f = new frmMensaje(null, null, "PERMISO3", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbAlquiler.Checked = false;
-                    cbLibro.Checked = false;
-                    cbCliente.Checked = false;
-                    cbUsuario.Checked = false;
-                }
-                if (cbAlquiler.Checked == true && cbLibro.Checked == false && cbCliente.Checked == false && cbUsuario.Checked == false)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 13,
-                        USER_CREACION = nomUsu
-                    };
-                    
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
-
-                    Form f = new frmMensaje(null, null, "PERMISO4", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbAlquiler.Checked = false;
-                    cbLibro.Checked = false;
-                }
-                if (cbAlquiler.Checked == false && cbLibro.Checked == true && cbCliente.Checked == false && cbUsuario.Checked == false)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 14,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
-
-                    Form f = new frmMensaje(null, null, "PERMISO5", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbAlquiler.Checked = false;
-                }
-                if (cbAlquiler.Checked == false && cbLibro.Checked == false && cbCliente.Checked == true && cbUsuario.Checked == true)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO,//Asigno ID encontrado
-                        ID_PERMISO = 15,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
-
-                    Form f = new frmMensaje(null, null, "PERMISO6", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbCliente.Checked = false;
-                }
-                if (cbAlquiler.Checked == false && cbLibro.Checked == false && cbCliente.Checked == false && cbUsuario.Checked == true)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO,//Asigno ID encontrado
-                        ID_PERMISO = 16,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
-
-                    Form f = new frmMensaje(null, null, "PERMISO7", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbUsuario.Checked = false;
-                }
-                if (cbAlquiler.Checked == true && cbLibro.Checked == false && cbCliente.Checked == false && cbUsuario.Checked == true)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 13,
-                        USER_CREACION = nomUsu
-                    };
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO,//Asigno ID encontrado
-                        ID_PERMISO = 16,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
-
-                    Form f = new frmMensaje(null, null, "PERMISO8", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbAlquiler.Checked = false;
-                    cbUsuario.Checked = false;
-                }
-                if (cbAlquiler.Checked == false && cbLibro.Checked == true && cbCliente.Checked == true && cbUsuario.Checked == false)
-                {
-                    //Crear usuario, para validar que exista
-                    Usuario usuario = new Usuario();
-                    usuario.USUARIO1 = txtUsuario.Text;
-
-                    //Se lo paso a la BLL para que valide si existe
-                    Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
-                    //obtengo el ID del usuario
-                    int ID_USUARIO = existeUsuario.ID_USUARIO;
-
-                    //Eliminar permisos de mi usuario
-                    UsuarioPermiso usuarioEliminar = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO
-                    };
-
-                    string nomUsu = UsuarioActivo.NombreDeUsuario;
-
-
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Eliminar(usuarioEliminar);
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO, //Asigno ID encontrado
-                        ID_PERMISO = 14,
-                        USER_CREACION = nomUsu
-                    };
-                    //Creo objeto Permiso usuario con el ID del usuario
-                    UsuarioPermiso usuarioPermiso2 = new UsuarioPermiso()
-                    {
-                        ID_USUARIO = ID_USUARIO,//Asigno ID encontrado
-                        ID_PERMISO = 15,
-                        USER_CREACION = nomUsu
-                    };
-                    //podría cargar 
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso);
-                    BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.Insertar(usuarioPermiso2);
-
-                    Form f = new frmMensaje(null, null, "PERMISO9", null);
-                    f.Show();
-
-                    txtUsuario.Clear();
-                    cbCliente.Checked = false;
-                    cbLibro.Checked = false;
-                }
-                if (cbAlquiler.Checked == false && cbLibro.Checked == true && cbCliente.Checked == false && cbUsuario.Checked == true)
-                {
+                if (combinacionInvalida)
                     throw new ErrorPermiso();
-                }
-                if (cbAlquiler.Checked == true && cbLibro.Checked == false && cbCliente.Checked == true && cbUsuario.Checked == false)
-                {
-                    throw new ErrorPermiso();
-                }
-                if (cbAlquiler.Checked == true && cbLibro.Checked == true && cbCliente.Checked == true && cbUsuario.Checked == false)
-                {
-                    throw new ErrorPermiso();
-                }
-                if (cbAlquiler.Checked == true && cbLibro.Checked == true && cbCliente.Checked == false && cbUsuario.Checked == true)
-                {
-                    throw new ErrorPermiso();
-                }
-                if (cbAlquiler.Checked == true && cbLibro.Checked == false && cbCliente.Checked == true && cbUsuario.Checked == true)
-                {
-                    throw new ErrorPermiso();
-                }
-                if (cbAlquiler.Checked == false && cbLibro.Checked == true && cbCliente.Checked == true && cbUsuario.Checked == true)
-                {
-                    throw new ErrorPermiso();
-                }
 
+                // Buscar usuario
+                Usuario usuario = new Usuario { USUARIO1 = txtUsuario.Text };
+                Usuario existeUsuario = BLL.Servicio.usuario.UsuarioBLL.Instance.ObtenerUsuarioPermiso(usuario);
+                int idUsuario = existeUsuario.ID_USUARIO;
+                string userCreacion = UsuarioActivo.NombreDeUsuario;
 
+                // Construir componente Composite con las Patentes seleccionadas
+                FamiliaPermiso seleccion = new FamiliaPermiso("Seleccion");
+                if (alq) seleccion.Agregar(CatalogoPermisos.Alquiler);
+                if (lib) seleccion.Agregar(CatalogoPermisos.Libro);
+                if (cli) seleccion.Agregar(CatalogoPermisos.Cliente);
+                if (usu) seleccion.Agregar(CatalogoPermisos.Usuario);
+
+                // Asignar permisos usando el patrón Composite
+                BLL.Servicio.usuario.PermisoUsuarioBLL.Instance.AsignarPermisos(idUsuario, seleccion, userCreacion);
+
+                // Mostrar mensaje de confirmación preservando los códigos originales
+                string codigoMensaje = DeterminarCodigoMensaje(alq, lib, cli, usu);
+                Form f = new frmMensaje(null, null, codigoMensaje, null);
+                f.Show();
+
+                // Limpiar formulario
+                txtUsuario.Clear();
+                cbAlquiler.Checked = false;
+                cbLibro.Checked = false;
+                cbCliente.Checked = false;
+                cbUsuario.Checked = false;
             }
-            catch(ErrorPermiso ex)
+            catch (ErrorPermiso ex)
             {
                 LoggerService.WriteLog(ex.Message);
                 MessageBox.Show(ex.Message);
             }
-            catch(UsuarioInexistente ex)
+            catch (UsuarioInexistente ex)
             {
                 LoggerService.WriteLog(ex.Message);
                 MessageBox.Show(ex.Message);
             }
-            catch(DatosFaltantes ex)
+            catch (DatosFaltantes ex)
             {
                 LoggerService.WriteLog(ex.Message);
                 MessageBox.Show(ex.Message);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 LoggerService.WriteLog(ex.Message);
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        /// <summary>
+        /// Determina el código de mensaje a mostrar según los permisos seleccionados,
+        /// preservando la correspondencia original con frmMensaje.
+        /// </summary>
+        private string DeterminarCodigoMensaje(bool alq, bool lib, bool cli, bool usu)
+        {
+            if (alq && lib && cli && usu) return "PERMISO3"; // Administrador (todos)
+            if (alq && lib)              return "PERMISO1"; // Gestión Alquiler + Libro
+            if (cli && usu)              return "PERMISO2"; // Gestión Cliente + Usuario
+            if (alq && usu)              return "PERMISO8"; // Gestión Alquiler + Usuario
+            if (lib && cli)              return "PERMISO9"; // Gestión Libro + Cliente
+            if (alq)                     return "PERMISO4"; // Solo Gestión Alquiler
+            if (lib)                     return "PERMISO5"; // Solo Gestión Libro
+            if (cli)                     return "PERMISO6"; // Solo Gestión Cliente
+            // usu == true (única combinación válida restante)
+            return "PERMISO7"; // Solo Gestión Usuario
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -520,3 +155,4 @@ namespace Pantallas
         }
     }
 }
+
