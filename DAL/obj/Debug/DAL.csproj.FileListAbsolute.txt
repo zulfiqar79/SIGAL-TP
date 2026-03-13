@@ -1,48 +1,50 @@
-D:\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-D:\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.dll.config
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.dll
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.pdb
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.dll
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.dll
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.SqlServer.dll
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.pdb
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.dll.config
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.xml
-D:\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.SqlServer.xml
-D:\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.CopyComplete
-D:\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.dll
-D:\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.Up2Date
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Aranda.AilenTP\TP TC\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\DAL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\SL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\Domain.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\SL.pdb
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\SL.dll.config
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.csproj.Up2Date
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.dll
-C:\Users\zulfiqar\Desktop\MI-MALETIN\__UAI__\___Trabajo de Diploma\Chomyk.JohannTP\TP TC\Trabajo Practico\DAL\obj\Debug\DAL.pdb
+D:/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.AssemblyReference.cache
+D:/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.CoreCompileInputs.cache
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.dll.config
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.dll
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.pdb
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.dll
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.dll
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.SqlServer.dll
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.pdb
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.dll.config
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.xml
+D:/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.SqlServer.xml
+D:/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.CopyComplete
+D:/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.dll
+D:/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.SqlServer.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.SqlServer.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.AssemblyReference.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.CoreCompileInputs.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.Up2Date
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Aranda.AilenTP/TP TC/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/DAL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.SqlServer.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/SL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/Domain.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/SL.pdb
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/SL.dll.config
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/bin/Debug/EntityFramework.SqlServer.xml
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.AssemblyReference.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.CoreCompileInputs.cache
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.csproj.Up2Date
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.dll
+C:/Users/zulfiqar/Desktop/MI-MALETIN/__UAI__/___Trabajo de Diploma/Chomyk.JohannTP/TP TC/Trabajo Practico/DAL/obj/Debug/DAL.pdb
+/home/runner/work/SIGAL-TP/SIGAL-TP/DAL/obj/Debug/DAL.dll
+/home/runner/work/SIGAL-TP/SIGAL-TP/DAL/obj/Debug/DAL.pdb

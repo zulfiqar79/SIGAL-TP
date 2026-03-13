@@ -4,9 +4,13 @@ using SL.Servicios.Extension;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.EntityClient;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -267,6 +271,8 @@ namespace Pantallas
                 btnCrear.BackColor = Color.Gray;
                 btnPermiso.Enabled = false;
                 btnPermiso.BackColor = Color.Gray;
+                btnBackup.Enabled = false;
+                btnBackup.BackColor = Color.Gray;
             }
             if (UsuarioActivo.PermisoAlquiler != 1)
             {
@@ -330,6 +336,7 @@ namespace Pantallas
             btnPermiso.Text = "PERMISO".Traducir();
 
             btnCrear.Text = "CREAR".Traducir();
+            btnBackup.Text = "BACKUP".Traducir();
         }
 
         private void btnRenovarAlquiler_Click(object sender, EventArgs e)
@@ -351,6 +358,60 @@ namespace Pantallas
             var formm = new frmPermiso();
             formm.Show();
             ocultarSubMenu();
+        }
+
+        private void btnBackup_Click(object sender, EventArgs e)
+        {
+            using (var saveDialog = new SaveFileDialog())
+            {
+                saveDialog.Title = "Guardar backup de base de datos".Traducir();
+                saveDialog.Filter = "Backup SQL Server (*.bak)|*.bak";
+                saveDialog.FileName = "backup_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".bak";
+
+                if (saveDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string backupPath = saveDialog.FileName;
+
+                    // Validate the path ends with .bak
+                    if (!backupPath.EndsWith(".bak", StringComparison.OrdinalIgnoreCase))
+                    {
+                        MessageBox.Show("El archivo de backup debe tener extensión .bak.".Traducir(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+
+                    try
+                    {
+                        string efConnectionString = ConfigurationManager.ConnectionStrings["base_sigalEntities"].ConnectionString;
+                        var efBuilder = new EntityConnectionStringBuilder(efConnectionString);
+                        string sqlConnectionString = efBuilder.ProviderConnectionString;
+
+                        using (var connection = new SqlConnection(sqlConnectionString))
+                        {
+                            connection.Open();
+                            string rawDatabaseName = connection.Database;
+                            if (!System.Text.RegularExpressions.Regex.IsMatch(rawDatabaseName, @"^[\w\-\. ]+$"))
+                            {
+                                MessageBox.Show("El nombre de la base de datos contiene caracteres inválidos.".Traducir(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                return;
+                            }
+                            string databaseName = rawDatabaseName.Replace("]", "]]");
+                            string query = "BACKUP DATABASE [" + databaseName + "] TO DISK = @backupPath WITH FORMAT, INIT, SKIP, NOREWIND, NOUNLOAD, STATS = 10";
+                            using (var command = new SqlCommand(query, connection))
+                            {
+                                command.Parameters.AddWithValue("@backupPath", backupPath);
+                                command.CommandTimeout = 300;
+                                command.ExecuteNonQuery();
+                            }
+                        }
+
+                        MessageBox.Show("Backup realizado correctamente.".Traducir() + "\n" + backupPath, "Backup", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al realizar el backup: ".Traducir() + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
     }
 }
