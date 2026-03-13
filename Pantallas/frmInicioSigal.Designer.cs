@@ -31,6 +31,7 @@
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnBackup = new System.Windows.Forms.Button();
+            this.btnRestaurarBackup = new System.Windows.Forms.Button();
             this.panelIdiomaSubMenu = new System.Windows.Forms.Panel();
             this.btnIngles = new System.Windows.Forms.Button();
             this.btnEspañol = new System.Windows.Forms.Button();
@@ -72,6 +73,7 @@
             this.panelPrincipal.AutoScroll = true;
             this.panelPrincipal.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panelPrincipal.Controls.Add(this.btnCerrarSesion);
+            this.panelPrincipal.Controls.Add(this.btnRestaurarBackup);
             this.panelPrincipal.Controls.Add(this.btnBackup);
             this.panelPrincipal.Controls.Add(this.panelIdiomaSubMenu);
             this.panelPrincipal.Controls.Add(this.btnIdioma);
@@ -121,6 +123,21 @@
             this.btnBackup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBackup.UseVisualStyleBackColor = false;
             this.btnBackup.Click += new System.EventHandler(this.btnBackup_Click);
+            // 
+            // btnRestaurarBackup
+            // 
+            this.btnRestaurarBackup.BackColor = System.Drawing.SystemColors.InfoText;
+            this.btnRestaurarBackup.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRestaurarBackup.FlatAppearance.BorderSize = 0;
+            this.btnRestaurarBackup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestaurarBackup.ForeColor = System.Drawing.Color.White;
+            this.btnRestaurarBackup.Name = "btnRestaurarBackup";
+            this.btnRestaurarBackup.Size = new System.Drawing.Size(233, 37);
+            this.btnRestaurarBackup.TabIndex = 16;
+            this.btnRestaurarBackup.Text = "RESTAURAR BACKUP";
+            this.btnRestaurarBackup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRestaurarBackup.UseVisualStyleBackColor = false;
+            this.btnRestaurarBackup.Click += new System.EventHandler(this.btnRestaurarBackup_Click);
             // 
             // panelIdiomaSubMenu
             // 
@@ -581,5 +598,6 @@
         private System.Windows.Forms.Button btnPermiso;
         private System.Windows.Forms.HelpProvider helpProvider1;
         private System.Windows.Forms.Button btnBackup;
+        private System.Windows.Forms.Button btnRestaurarBackup;
     }
 }

@@ -273,6 +273,8 @@ namespace Pantallas
                 btnPermiso.BackColor = Color.Gray;
                 btnBackup.Enabled = false;
                 btnBackup.BackColor = Color.Gray;
+                btnRestaurarBackup.Enabled = false;
+                btnRestaurarBackup.BackColor = Color.Gray;
             }
             if (UsuarioActivo.PermisoAlquiler != 1)
             {
@@ -337,6 +339,7 @@ namespace Pantallas
 
             btnCrear.Text = "CREAR".Traducir();
             btnBackup.Text = "BACKUP".Traducir();
+            btnRestaurarBackup.Text = "RESTAURAR BACKUP".Traducir();
         }
 
         private void btnRenovarAlquiler_Click(object sender, EventArgs e)
@@ -410,6 +413,55 @@ namespace Pantallas
                     {
                         MessageBox.Show("Error al realizar el backup: ".Traducir() + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
+                }
+            }
+        }
+
+        private void btnRestaurarBackup_Click(object sender, EventArgs e)
+        {
+            using (var openDialog = new OpenFileDialog())
+            {
+                openDialog.Title = "Seleccionar archivo de backup".Traducir();
+                openDialog.Filter = "Backup SQL Server (*.bak)|*.bak";
+
+                if (openDialog.ShowDialog() != DialogResult.OK) return;
+
+                string backupPath = openDialog.FileName;
+
+                if (MessageBox.Show("¿Confirma que desea restaurar la base de datos? Se perderán los datos actuales.".Traducir(),
+                    "Confirmar restauración".Traducir(), MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes) return;
+
+                try
+                {
+                    string efConnectionString = ConfigurationManager.ConnectionStrings["base_sigalEntities"].ConnectionString;
+                    var efBuilder = new EntityConnectionStringBuilder(efConnectionString);
+                    var sqlBuilder = new System.Data.SqlClient.SqlConnectionStringBuilder(efBuilder.ProviderConnectionString);
+                    string rawDatabaseName = sqlBuilder.InitialCatalog;
+                    if (!System.Text.RegularExpressions.Regex.IsMatch(rawDatabaseName, @"^[\w\-\. ]+$"))
+                    {
+                        MessageBox.Show("El nombre de la base de datos contiene caracteres inválidos.".Traducir(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    string quotedDatabaseName = new System.Data.SqlClient.SqlCommandBuilder().QuoteIdentifier(rawDatabaseName);
+                    sqlBuilder.InitialCatalog = "master";
+                    using (var connection = new SqlConnection(sqlBuilder.ConnectionString))
+                    {
+                        connection.Open();
+                        string query = "ALTER DATABASE " + quotedDatabaseName + " SET SINGLE_USER WITH ROLLBACK IMMEDIATE; " +
+                                       "RESTORE DATABASE " + quotedDatabaseName + " FROM DISK = @backupPath WITH REPLACE; " +
+                                       "ALTER DATABASE " + quotedDatabaseName + " SET MULTI_USER;";
+                        using (var command = new SqlCommand(query, connection))
+                        {
+                            command.Parameters.AddWithValue("@backupPath", backupPath);
+                            command.CommandTimeout = 300;
+                            command.ExecuteNonQuery();
+                        }
+                    }
+                    MessageBox.Show("Base de datos restaurada correctamente.".Traducir(), "Restaurar Backup".Traducir(), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al restaurar la base de datos: ".Traducir() + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
