@@ -1,6 +1,7 @@
 ﻿using DAL.DAO;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 
 namespace DAL.AccesoDatos.alquiler
@@ -61,6 +62,7 @@ namespace DAL.AccesoDatos.alquiler
                 var hoy = DateTime.Now;
 
                 return db.DAlquiler
+                    .Include(x => x.Libro)
                     .Where(a => a.FECHA_INICIO.HasValue
                              && a.FECHA_INICIO.Value.Month == hoy.Month
                              && a.FECHA_INICIO.Value.Year == hoy.Year)

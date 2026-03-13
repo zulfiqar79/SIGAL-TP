@@ -39,30 +39,23 @@ namespace Pantallas
 
         private void btnConsultarLibro_Click(object sender, EventArgs e)
         {
-            
             try
-            { //List<UsuarioPermiso> listaDePermisos
-                //listaLibros = new BindingList<Libro>(BLL.Servicio.libro.LibroServicio.Instance.ObtenerTodo().ToList());
-                //verLibros.DataSource = listaLibros.ToList();
-                // ***
+            {
                 Libro lib = new Libro();
                 List<Libro> lista = BLL.Servicio.libro.LibroBLL.Instance.ListaDeLibro(lib);
 
-                verLibros.DataSource = lista;
-                //**
-                //Libro lib = new Libro();
-                //List<Libro> lista = BLL.Servicio.libro.LibroServicio.Instance.ListaDeLibro(lib);
-
-                //verLibros.DataSource = lista
-                //    .Select(x => new
-                //    {
-                //        x.PUBLICADO,
-                //        x.ESTADO_LIBRO,
-                //        x.TITULO_LIBRO,
-                //        x.CONTENIDO,
-                //        x.ISBN
-                //    })
-                //    .ToList();
+                verLibros.DataSource = lista
+                    .Select(x => new
+                    {
+                        Titulo       = x.TITULO_LIBRO,
+                        Autor        = x.Autor != null ? x.Autor.NOMBRE_AUTOR + " " + x.Autor.APELLIDO_AUTOR : "",
+                        Editorial    = x.Editorial != null ? x.Editorial.NOMBRE_EDITORIAL : "",
+                        ISBN         = x.ISBN,
+                        Anio_Publicado = x.PUBLICADO,
+                        Estado       = x.ESTADO_LIBRO,
+                        Contenido    = x.CONTENIDO
+                    })
+                    .ToList();
             }
             catch (Exception ex)
             {
