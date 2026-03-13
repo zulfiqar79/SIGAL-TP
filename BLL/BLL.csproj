@@ -60,6 +60,7 @@
     <Compile Include="BusinessLogic\libro\Estrategia\IInsercionLibroStrategy.cs" />
     <Compile Include="BusinessLogic\libro\LibroBLL.cs" />
     <Compile Include="BusinessLogic\alquiler\PagoBLL.cs" />
+    <Compile Include="BusinessLogic\usuario\CatalogoPermisos.cs" />
     <Compile Include="BusinessLogic\usuario\PermisoUsuarioBLL.cs" />
     <Compile Include="BusinessLogic\usuario\UsuarioBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
